@@ -1,0 +1,100 @@
+@charset "utf-8";
+
+/**
+ * @update:    2016.07.08;
+ */
+
+@import "comm";
+
+/**
+ * List
+ */
+.acca-guide{
+
+  > a{
+    display: block;
+    box-sizing: border-box;
+    padding: .27rem 0 .27rem .22rem;
+    border-top: 1px solid #ECECEC;
+    border-bottom: 1px solid #ECECEC;
+    background-color: #fff;
+    i{
+      display: block;
+      position: absolute;
+      width: .32rem; height: .32rem;
+      background: url("../img/prepage.png") no-repeat;
+      background-size: .32rem .32rem;
+      transform: translate3d(1.15rem,0,0) rotate(90deg);
+      transition: .3s;
+      &.active{
+        transform: translate3d(1.15rem,0,0) rotate(-90deg);
+      }
+    }
+    h1{
+      font-size: .24rem; color: #333;
+    }
+  }
+
+  .content{
+
+    background-color: #fff;
+    transition: .3s;
+    overflow: hidden;
+
+    ul{
+      padding: .25rem;
+      height: 2.65rem;
+      background-color: #F2F2F2;
+    }
+    li{
+      float: left; position: relative;
+      width: 25%;
+      text-align: center;
+      &:before{
+        content: '';
+        display: block;
+        position: absolute;
+        left: 50%; margin-left: -.325rem;
+        width: .65rem; height: .65rem;
+        border-radius: 100%;
+        background-color: #3698C6;
+      }
+    }
+
+    a{
+      font-size: .2rem; color: #666;
+    }
+  }
+
+  .consult-list{
+
+    @include borderTop(#F1F1F1,1px);
+
+    a{
+      display: block;
+      height: 1.6rem;
+      padding: .2rem .15rem;
+      @include borderBottom(#F1F1F1,1px);
+      img{
+        float: left;
+        @include marginPadding(0 .2rem 0 0,0);
+        @include widthHeight(1.6rem,1.2rem);
+      }
+      h1{
+        @include fontColor(.22rem,#666);
+        @include marginPadding(.05rem 0 .1rem 0,0);
+      }
+      p{
+        line-height: .4rem;
+        @include fontColor(.2rem,#696969);
+      }
+    }
+
+  }
+
+}
+
+.consult-contnet-active{
+  height: 0;
+}
+

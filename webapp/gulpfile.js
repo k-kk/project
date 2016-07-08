@@ -14,11 +14,12 @@ gulp.task('server', function() {
   });
 });
 
-
-gulp.task('demo', ['server'], function() {
+// 开发
+gulp.task('demo', ['server', 'watch'], function() {
 
 });
 
+// 编译
 gulp.task('build', ['clean', 'compressHtml', 'compressViewHtml'], function() {
-  console.log('ok');
+
 });

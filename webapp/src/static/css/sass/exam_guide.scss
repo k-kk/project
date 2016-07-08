@@ -1,0 +1,148 @@
+@charset "utf-8";
+
+/**
+ * @update:    2016.07.06;
+ */
+
+@import "comm";
+
+/**
+ * reset
+ */
+div,section,a,ul,li,div{
+  box-sizing: border-box;
+}
+.page-wrap{
+  padding-bottom: 1.1rem;
+}
+/**
+ * guide
+ */
+.acca-guide{
+
+  > a{
+    display: block;
+    box-sizing: border-box;
+    padding: .27rem 0 .27rem .22rem;
+    border-top: 1px solid #ECECEC;
+    border-bottom: 1px solid #ECECEC;
+    background-color: #fff;
+    i{
+      display: block;
+      position: absolute;
+      width: .32rem; height: .32rem;
+      background: url("../img/prepage.png") no-repeat;
+      background-size: .32rem .32rem;
+      transform: translate3d(1.15rem,0,0) rotate(90deg);
+      transition: .3s;
+      &.active{
+        transform: translate3d(1.15rem,0,0) rotate(-90deg);
+      }
+    }
+    h1{
+      font-size: .24rem; color: #333;
+    }
+  }
+
+  .content{
+
+    background-color: #fff;
+    transition: .3s;
+
+    ul{
+      padding: .25rem;
+      height: 1.5rem;
+      background-color: #F2F2F2;
+    }
+    li{
+      float: left; position: relative;
+      width: 20%;
+      text-align: center;
+      &:before{
+        content: '';
+        display: block;
+        position: absolute;
+        left: 50%; margin-left: -.325rem;
+        width: .65rem; height: .65rem;
+        border-radius: 100%;
+      }
+      &:nth-of-type(1):before{
+        background: url(../img/acca-icon5.png) no-repeat center center #3698C6;
+        background-size: .36rem .36rem;
+      }
+      &:nth-of-type(2):before{
+        background: url(../img/acca-icon1.png) no-repeat center center #3698C6;
+        background-size: .37rem .41rem;
+      }
+      &:nth-of-type(3):before{
+        background: url(../img/acca-icon2.png) no-repeat center center #3698C6;
+        background-size: .34rem .34rem;
+      }
+      &:nth-of-type(4):before{
+        background: url(../img/acca-icon4.png) no-repeat center center #3698C6;
+        background-size: .36rem .36rem;
+      }
+      &:nth-of-type(5):before{
+        background: url(../img/acca-icon3.png) no-repeat center center #3698C6;
+        background-size: .36rem .41rem;
+      }
+    }
+
+    a{
+      font-size: .2rem; color: #666;
+    }
+  }
+
+  .acca-list{
+
+    a{
+      display: block;
+      height: 2.3rem;
+      padding: .25rem;
+      border-bottom: 1px solid #F1F1F1;
+    }
+    h1{
+      font-size: .26rem; color: #333;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    p{
+      height: 1rem; overflow: hidden;
+      margin: .11rem 0;
+      font-size: .24rem; color: #666;
+      line-height: .34rem;
+    }
+    time{
+      display: block;
+      text-align: right;
+      font-size: .2rem; color: #999;
+    }
+
+  }
+
+}
+
+.fixed-nav{
+   position: fixed;
+   z-index:6;
+   left: 0; right: 0; top: 0;
+   height: .6rem;
+   background-color: rgba(255,255,255,.8);
+   a{
+      color: #333; font-size: .2rem;
+      display: block;
+      float: left;
+      width: 20%; height: inherit;
+      text-align: center;
+      line-height: .6rem;
+      &.active{
+        color: #3698C6;
+      }
+   }
+}
+
+.acca-guide-active{
+  height: 0;
+  overflow: hidden;
+}

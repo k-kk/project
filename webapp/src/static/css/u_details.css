@@ -1,0 +1,258 @@
+/**
+ * @update:    2016.07.05;
+ */
+/**
+ * reset
+ */
+div, section, a, ul, li, div {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.page-wrap {
+  padding-bottom: 1rem; }
+
+/**
+ * Top Pic
+ */
+.u-top-pic {
+  padding-top: .5rem;
+  height: 2rem;
+  overflow: hidden;
+  background: url("../img/single_vido_back.jpg") center center no-repeat #85bfe8;
+  -moz-background-size: 6.4rem 2.8rem;
+  background-size: 6.4rem 2.8rem; }
+  .u-top-pic h1 {
+    font-size: .34rem;
+    color: #A8ABB0;
+    text-align: center; }
+  .u-top-pic ul {
+    text-align: center;
+    width: 100%;
+    margin: .2rem 0 0 1.1rem; }
+    .u-top-pic ul li {
+      float: left;
+      position: relative; }
+      .u-top-pic ul li:nth-of-type(1) {
+        font-size: .18rem;
+        color: #A8ABB0; }
+      .u-top-pic ul li:nth-of-type(2) {
+        font-size: .25rem;
+        color: #AA192E;
+        -webkit-transform: translate3d(0, -0.05rem, 0);
+        -moz-transform: translate3d(0, -0.05rem, 0);
+        transform: translate3d(0, -0.05rem, 0); }
+      .u-top-pic ul li:nth-of-type(3) {
+        font-size: .18rem;
+        color: #AA192E;
+        margin-right: .3rem;
+        padding: 0.1rem;
+        -webkit-transform: translate3d(0, -0.1rem, 0);
+        -moz-transform: translate3d(0, -0.1rem, 0);
+        transform: translate3d(0, -0.1rem, 0); }
+        .u-top-pic ul li:nth-of-type(3):before {
+          content: '';
+          display: block;
+          position: absolute;
+          left: 0;
+          right: 0;
+          top: 50%;
+          margin-top: -.02rem;
+          background-color: #868684;
+          height: 2px; }
+      .u-top-pic ul li:nth-of-type(4) {
+        width: .7rem;
+        height: .28rem;
+        text-align: center;
+        line-height: .28rem;
+        -webkit-transform: translate3d(0, -0.05rem, 0);
+        -moz-transform: translate3d(0, -0.05rem, 0);
+        transform: translate3d(0, -0.05rem, 0);
+        font-size: .14rem;
+        color: #fff;
+        background-color: #FEAC3E; }
+
+/**
+ * U+
+ */
+.acca-guide > a {
+  display: block;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: .27rem 0 .27rem .22rem;
+  border-top: 1px solid #ECECEC;
+  border-bottom: 1px solid #ECECEC;
+  background-color: #fff; }
+  .acca-guide > a i {
+    display: block;
+    position: absolute;
+    width: .32rem;
+    height: .32rem;
+    background: url("../img/prepage.png") no-repeat;
+    -moz-background-size: .32rem .32rem;
+    background-size: .32rem .32rem;
+    -webkit-transform: translate3d(3.6rem, 0, 0) rotate(90deg);
+    -moz-transform: translate3d(3.6rem, 0, 0) rotate(90deg);
+    transform: translate3d(3.6rem, 0, 0) rotate(90deg);
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    transition: .3s; }
+    .acca-guide > a i.active {
+      -webkit-transform: translate3d(3.6rem, 0, 0) rotate(-90deg);
+      -moz-transform: translate3d(3.6rem, 0, 0) rotate(-90deg);
+      transform: translate3d(3.6rem, 0, 0) rotate(-90deg); }
+  .acca-guide > a h1 {
+    font-size: .24rem;
+    color: #333; }
+
+.u-details {
+  margin-top: .2rem; }
+  .u-details > a i {
+    -webkit-transform: translate3d(1.5rem, 0, 0) rotate(90deg);
+    -moz-transform: translate3d(1.5rem, 0, 0) rotate(90deg);
+    transform: translate3d(1.5rem, 0, 0) rotate(90deg); }
+    .u-details > a i.active {
+      -webkit-transform: translate3d(1.5rem, 0, 0) rotate(-90deg);
+      -moz-transform: translate3d(1.5rem, 0, 0) rotate(-90deg);
+      transform: translate3d(1.5rem, 0, 0) rotate(-90deg); }
+  .u-details .content {
+    background-color: #fff;
+    height: 4rem;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    transition: .3s;
+    overflow: hidden; }
+    .u-details .content ul li {
+      position: relative;
+      width: 33.3%;
+      height: 1.6rem;
+      float: left;
+      text-align: center;
+      color: #999;
+      font-size: .22rem;
+      line-height: 3.3rem; }
+      .u-details .content ul li:before {
+        content: '';
+        position: absolute;
+        background-color: #eee;
+        width: 1.2rem;
+        height: 1.2rem;
+        -moz-border-radius: 100%;
+        border-radius: 100%;
+        display: block;
+        left: 50%;
+        top: 50%;
+        -webkit-transform: translate3d(-50%, -50%, 0);
+        -moz-transform: translate3d(-50%, -50%, 0);
+        transform: translate3d(-50%, -50%, 0); }
+      .u-details .content ul li:nth-of-type(1), .u-details .content ul li:nth-of-type(2), .u-details .content ul li:nth-of-type(3) {
+        margin-bottom: .4rem; }
+      .u-details .content ul li:nth-of-type(1):before {
+        background: url("../img/u_icon1.png") center center no-repeat #eee;
+        -moz-background-size: 0.77rem 0.7rem;
+        background-size: 0.77rem 0.7rem; }
+      .u-details .content ul li:nth-of-type(2):before {
+        background: url("../img/u_icon2.png") center center no-repeat #eee;
+        -moz-background-size: 0.59rem 0.58rem;
+        background-size: 0.59rem 0.58rem; }
+      .u-details .content ul li:nth-of-type(3):before {
+        background: url("../img/u_icon3.png") center center no-repeat #eee;
+        -moz-background-size: 0.69rem 0.51rem;
+        background-size: 0.69rem 0.51rem; }
+      .u-details .content ul li:nth-of-type(4):before {
+        background: url("../img/u_icon4.png") center center no-repeat #eee;
+        -moz-background-size: 0.65rem 0.6rem;
+        background-size: 0.65rem 0.6rem; }
+      .u-details .content ul li:nth-of-type(5):before {
+        background: url("../img/u_icon5.png") center center no-repeat #eee;
+        -moz-background-size: 0.64rem 0.7rem;
+        background-size: 0.64rem 0.7rem; }
+      .u-details .content ul li:nth-of-type(6):before {
+        background: url("../img/u_icon6.png") center center no-repeat #eee;
+        -moz-background-size: 0.79rem 0.62rem;
+        background-size: 0.79rem 0.62rem; }
+
+/**
+ * Course Introduce
+ */
+.course-introduce {
+  margin-top: .2rem; }
+  .course-introduce > a i {
+    -webkit-transform: translate3d(1.1rem, 0, 0) rotate(90deg);
+    -moz-transform: translate3d(1.1rem, 0, 0) rotate(90deg);
+    transform: translate3d(1.1rem, 0, 0) rotate(90deg); }
+    .course-introduce > a i.active {
+      -webkit-transform: translate3d(1.1rem, 0, 0) rotate(-90deg);
+      -moz-transform: translate3d(1.1rem, 0, 0) rotate(-90deg);
+      transform: translate3d(1.1rem, 0, 0) rotate(-90deg); }
+  .course-introduce .content {
+    background-color: #fff;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    transition: .3s;
+    overflow: hidden;
+    padding-bottom: .2rem; }
+  .course-introduce ul li {
+    float: left;
+    width: 2.9rem;
+    height: 1.5rem;
+    margin: .2rem 0 0 .2rem;
+    background-color: #f2f2f2;
+    padding: .2rem;
+    line-height: 1; }
+    .course-introduce ul li a {
+      display: block; }
+    .course-introduce ul li h1 {
+      font-size: .18rem;
+      color: #666;
+      margin-bottom: .08rem; }
+    .course-introduce ul li h2 {
+      font-size: .12rem;
+      color: #666;
+      margin-bottom: .13rem; }
+    .course-introduce ul li div {
+      font-size: .16rem;
+      color: #666;
+      margin-bottom: .06rem; }
+      .course-introduce ul li div span {
+        color: #3B76B3;
+        margin-left: .1rem; }
+
+.acca-guide .acca-guide-contnet-active,
+.course-introduce .acca-guide-contnet-active,
+.u-details .acca-guide-contnet-active {
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 0rem; }
+
+/**
+ * Commodity Details
+ */
+.commodity-details {
+  margin-top: .2rem; }
+  .commodity-details .content {
+    background-color: #fff;
+    padding: .25rem .3rem;
+    font-size: .2rem;
+    color: #666;
+    line-height: .36rem; }
+
+/**
+ * U Clause
+ */
+.u-clause {
+  margin-top: .2rem; }
+  .u-clause .content {
+    background-color: #fff;
+    padding: .35rem 0; }
+    .u-clause .content a {
+      display: block;
+      color: #fff;
+      font-size: .28rem;
+      width: 3rem;
+      height: .7rem;
+      line-height: .7rem;
+      text-align: center;
+      margin: 0 auto;
+      -moz-border-radius: 5px;
+      border-radius: 5px;
+      background-color: #3698c6; }

@@ -1,0 +1,82 @@
+/**
+ * @update:    2016.07.04;
+ */
+/**
+ * course Type
+ */
+.course-type a {
+  height: 1.61rem;
+  width: 100%;
+  margin-top: .1rem;
+  display: block; }
+  .course-type a:nth-of-type(1) {
+    background: url("../img/index_acca.jpg") no-repeat;
+    -moz-background-size: 100% 1.61rem;
+    background-size: 100% 1.61rem; }
+  .course-type a:nth-of-type(2) {
+    background: url("../img/index_cma.jpg") no-repeat;
+    -moz-background-size: 100% 1.61rem;
+    background-size: 100% 1.61rem; }
+  .course-type a:nth-of-type(3) {
+    background: url("../img/index_cima.jpg") no-repeat;
+    -moz-background-size: 100% 1.61rem;
+    background-size: 100% 1.61rem; }
+  .course-type a:nth-of-type(4) {
+    background: url("../img/index_cfa.jpg") no-repeat;
+    -moz-background-size: 100% 1.61rem;
+    background-size: 100% 1.61rem; }
+  .course-type a:nth-of-type(5) {
+    background: url("../img/index_frm.jpg") no-repeat;
+    -moz-background-size: 100% 1.61rem;
+    background-size: 100% 1.61rem; }
+
+/**
+ * More
+ */
+.more-links {
+  border-top: 1px solid #e9e9e9;
+  border-bottom: 1px solid #e9e9e9;
+  background-color: #fff;
+  margin-bottom: .22rem; }
+  .more-links div {
+    position: relative;
+    text-indent: .3rem;
+    min-height: 1rem;
+    border-bottom: 1px solid #e9e9e9;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+    transition: .2s;
+    overflow: hidden;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+    .more-links div h1 {
+      font-size: .26rem;
+      color: #8c8c8c;
+      padding: .37rem 0; }
+    .more-links div ul {
+      display: none; }
+    .more-links div li {
+      text-indent: .4rem;
+      height: .45rem;
+      line-height: .1rem; }
+      .more-links div li a {
+        color: #999;
+        font-size: .22rem; }
+    .more-links div:last-of-type {
+      border-bottom-width: 0px; }
+    .more-links div > a {
+      display: block;
+      width: .2rem;
+      height: .18rem;
+      position: absolute;
+      right: .4rem;
+      top: .4rem;
+      background: url("../img/index_jia.png") no-repeat;
+      -moz-background-size: .2rem .18rem;
+      background-size: .2rem .18rem; }
+  .more-links div.active ul {
+    display: block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-top: -.2rem;
+    padding-bottom: .2rem; }

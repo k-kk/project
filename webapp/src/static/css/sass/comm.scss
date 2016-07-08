@@ -1,0 +1,56 @@
+
+$imgPath: '../img/';
+
+
+// @include backPic('图片名','宽度','高度','X','Y','背景色');
+@mixin backPic($name,$width,$height,$x,$y,$backColor){
+  background: url($imgPath + $name) $x $y no-repeat $backColor;
+  background-size: $width  $height;
+}
+
+@mixin absoluteCenter($display){
+  display: $display;
+  left: 50%; top: 50%;
+  transform: translate3d(-50%,-50%,0);
+}
+
+@mixin borderTop($color,$lineHeight){
+  border-top: $lineHeight solid $color;
+}
+
+@mixin widthHeight($width,$height){
+  width: $width;
+  height:  $height;
+}
+
+@mixin fontColor($font,$color){
+  font-size: $font; color:  $color;
+}
+
+@mixin marginPadding($margin,$padding){
+  margin: $margin; padding: $padding;
+}
+
+@mixin borderBottom($color,$lineHeight){
+  border-bottom: $lineHeight solid $color;
+}
+
+@mixin fontDprSize($font-size){
+
+  [data-dpr="1"] & {
+    font-size: $font-size * 2;
+  }
+
+  [data-dpr="2"] & {
+    font-size: $font-size * 2;
+  }
+
+  [data-dpr="3"] & {
+    font-size: $font-size * 3;
+  }
+
+  [data-dpr="3.5"] & {
+    font-size: $font-size * 3;
+  }
+
+}
