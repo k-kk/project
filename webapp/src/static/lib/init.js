@@ -10,6 +10,7 @@
   var allNav = document.querySelector('#allNav');
   var oBody = document.querySelectorAll('body')[0];
   var dotHtml = document.documentElement;
+  var deviceStr;
 
   var settins = {
     across: function() { // 横屏提示样式
@@ -33,8 +34,10 @@
 
   };
 
+
   if (browerType.match(/MicroMessenger/i) == "micromessenger") isWeixin = false;
 
+  dotHtml.dataset.device = deviceStr;
   // 计算rem
   function redraw() {
 

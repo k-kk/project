@@ -6,3 +6,52 @@
 
 @import "comm";
 
+/**
+ * breanch-list
+ */
+.breanch-list{
+
+  background-color: #fff;
+
+ section{
+
+   height: 2.6rem;
+   @include marginPadding(0,.3rem .2rem);
+   @include borderBottom(#E9E9E9,1px);
+
+   h1{
+    @include fontColor(.28rem,#03A9F4);
+   }
+   a{
+    position: relative;
+    display: block;
+    @include fontColor(.2rem,#333);
+    margin-top: .18rem;
+    text-indent: .36rem;
+    &:after{
+      content: '';
+      display: block;
+      position: absolute;
+      left: 0; top: 0;
+      width: .23rem; height: .3rem;
+      background: url("../img/branch_icon_list.jpg") no-repeat;
+      background-size: .24rem 1.75rem;
+    }
+    &:nth-of-type(1):after{
+      top: -.01rem;
+      background-position: 0 -.06rem;
+    }
+    &:nth-of-type(2):after{
+      background-position: 0 -.52rem;
+    }
+    &:nth-of-type(3):after{
+      background-position: 0 -1.02rem;
+    }
+    &:nth-of-type(4):after{
+      background-position: 0 -1.46rem;
+    }
+   }
+
+ }
+
+}
