@@ -1,0 +1,236 @@
+@charset "utf-8";
+
+/**
+ * @update:    2016.07.11;
+ */
+
+@import "comm";
+
+/**
+ * 第一栏导航
+ */
+.acca-else-link{
+  a{
+    line-height: 2.3rem; font-size: .22rem;
+  }
+  a:nth-of-type(1):before{
+    width: .63rem; height: .58rem;
+    transform: translate3d(-50%,.29rem,0);
+    @include backPic("acca_banner_icon11.png",.63rem,.58rem,center,center,rgba(0,0,0,1));
+  }
+  a:nth-of-type(2):before{
+    width: .54rem; height: .63rem;
+    transform: translate3d(-50%,.22rem,0);
+    @include backPic("acca_banner_icon22.png",.54rem,.63rem,center,center,rgba(0,0,0,1));
+  }
+  a:nth-of-type(3):before{
+    width: .65rem; height: .52rem;
+    transform: translate3d(-50%,.32rem,0);
+    @include backPic("acca_banner_icon33.png",.65rem,.52rem,center,center,rgba(0,0,0,1));
+  }
+  a:nth-of-type(4):before{
+    width: .41rem; height: .64rem;
+    transform: translate3d(-50%,.2rem,0);
+    @include backPic("acca_banner_icon44.png",.41rem,.64rem,center,center,rgba(0,0,0,1));
+  }
+}
+
+/**
+ * Acca Introduce
+ */
+.acca-introduce{
+
+  background-color: #fff;
+  min-height: 4rem;
+  @include borderTop(#eee,1px);
+  @include borderBottom(#eee,1px);
+
+  h1{
+    @include fontColor(.24rem,#333);
+    @include borderLeft(#4598DC,3px);
+    text-indent: .12rem;
+    transform: translate3d(0,.2rem,0);
+    margin: 0 0 .4rem .3rem;
+  }
+
+  a.acca-banner-pic{
+    display: block;
+    background-color: #000;
+    height: 1.8rem;
+  }
+
+  section.introduce{
+     @include marginPadding(0,.4rem .25rem .2rem);
+    h2{
+      @include fontColor(.25rem,#4598DC);
+      text-align: center;
+    }
+    p{
+      @include fontColor(.24rem,#727272);
+      line-height: .35rem;
+    }
+
+  }
+
+  &:nth-of-type(2){
+    margin-top: .1rem;
+  }
+  &:nth-of-type(3){
+    margin-top: .25rem;
+  }
+}
+/**
+ * Acca Introduce
+ */
+.acca-england{
+
+  height: 18.7rem;
+
+ section{
+
+     position: relative; float: right;
+     @include borderTop(#eee,1px);
+     padding: .25rem .25rem 0;
+
+    > h3{
+      position: relative;
+      width: 1.75rem; height: .24rem;
+      margin: 0 auto; text-align: center;
+      @include fontColor(.24rem,#4985ad);
+      &:after,&:before{
+        content: '';
+        display: block;
+        position: absolute;
+        top: .04rem;
+        width: .2rem; height: .2rem;
+        background-color:#4985ad;
+        border-radius: 100%;
+      }
+      &:after{
+        left: 0;
+      }
+      &:before{
+        right: 0;
+      }
+    }
+
+    ul{
+
+      margin-top: .25rem;
+
+      li{
+        float: left; position: relative;
+        margin: 0 .3rem .2rem 0;
+        padding: .2rem;
+        @include widthHeight(2.8rem,1.2rem);
+        background-color: #EAEAEA;
+        &:nth-of-type(2n){
+          margin-right: 0;
+        }
+        span{
+          position: absolute;
+          top: .2rem; left: .2rem;
+          @include fontColor(.35rem,#4985AD);
+        }
+      }
+
+    }
+ }
+
+ .england-li{
+
+  hgroup{
+    position: absolute;
+    left: .8rem; top: .2rem;
+    width: 1.6rem;
+  }
+
+  h3{
+    @include fontColor(.24rem,#666);
+  }
+  h4{
+    @include fontColor(.16rem,#666);
+  }
+  aside{
+    @include fontColor(.2rem,#4985ad);
+    text-align: center;
+    margin-top: .64rem;
+  }
+
+ }
+
+}
+
+.acca-england-two{
+  @include borderTop(#eee,0px);
+}
+.acca-england{
+  @include borderBottom(#eee,0px);
+}
+.acca-england{
+
+  .acca-special{
+    span{
+      content: '';
+      display: block;
+      position: absolute;
+      left: 50%; margin-left: -.35rem;
+      width: .7rem; height: .55rem;
+      background-color: #f00;
+    }
+  }
+
+  section:nth-of-type(2){
+    padding-top: 0; border-top: 0;
+    h3{
+      color: #49AD73;
+      &:before,&:after{
+        background-color: #49AD73;
+      }
+    }
+    ul{
+      li{
+        span,aside{
+          color: #49AD73;
+        }
+      }
+    }
+  }
+
+  section:nth-of-type(3){
+    padding-top: 0; border-top: 0;
+    h3{
+      color: #E6B106;
+      &:before,&:after{
+        background-color: #E6B106;
+      }
+    }
+    ul li{
+      &::last-of-type{
+        clear: both;
+      }
+      span,aside{
+          color: #E6B106;
+        }
+    }
+  }
+
+  section:nth-of-type(4){
+    padding-top: 0; border-top: 0;
+    h3{
+      color: #D75368;
+      &:before,&:after{
+        background-color: #D75368;
+      }
+    }
+    ul li{
+      &::last-of-type{
+        clear: both;
+      }
+      span,aside{
+          color: #D75368;
+        }
+    }
+  }
+
+}

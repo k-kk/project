@@ -1,0 +1,160 @@
+@charset "UTF-8";
+/**
+ * @update:    2016.07.11;
+ */
+/**
+ * 第一栏导航
+ */
+.acca-else-link {
+  margin-top: 0; }
+  .acca-else-link a {
+    line-height: 2.3rem;
+    font-size: .22rem; }
+  .acca-else-link a:nth-of-type(1):before {
+    width: .63rem;
+    height: .58rem;
+    -webkit-transform: translate3d(-50%, 0.29rem, 0);
+    -moz-transform: translate3d(-50%, 0.29rem, 0);
+    transform: translate3d(-50%, 0.29rem, 0);
+    background: url("../img/acca_banner_icon11.png") center center no-repeat black;
+    -moz-background-size: 0.63rem 0.58rem;
+    background-size: 0.63rem 0.58rem; }
+  .acca-else-link a:nth-of-type(2):before {
+    width: .54rem;
+    height: .63rem;
+    -webkit-transform: translate3d(-50%, 0.22rem, 0);
+    -moz-transform: translate3d(-50%, 0.22rem, 0);
+    transform: translate3d(-50%, 0.22rem, 0);
+    background: url("../img/acca_banner_icon22.png") center center no-repeat black;
+    -moz-background-size: 0.54rem 0.63rem;
+    background-size: 0.54rem 0.63rem; }
+  .acca-else-link a:nth-of-type(3):before {
+    width: .65rem;
+    height: .52rem;
+    -webkit-transform: translate3d(-50%, 0.32rem, 0);
+    -moz-transform: translate3d(-50%, 0.32rem, 0);
+    transform: translate3d(-50%, 0.32rem, 0);
+    background: url("../img/acca_banner_icon33.png") center center no-repeat black;
+    -moz-background-size: 0.65rem 0.52rem;
+    background-size: 0.65rem 0.52rem; }
+  .acca-else-link a:nth-of-type(4):before {
+    width: .41rem;
+    height: .64rem;
+    -webkit-transform: translate3d(-50%, 0.2rem, 0);
+    -moz-transform: translate3d(-50%, 0.2rem, 0);
+    transform: translate3d(-50%, 0.2rem, 0);
+    background: url("../img/acca_banner_icon44.png") center center no-repeat black;
+    -moz-background-size: 0.41rem 0.64rem;
+    background-size: 0.41rem 0.64rem; }
+
+/**
+ * Acca Authentication
+ */
+.acca-introduce {
+  background-color: #fff;
+  border-top: 1px solid #E9E9E9;
+  border-bottom: 1px solid #E9E9E9; }
+  .acca-introduce > h1 {
+    font-size: 0.24rem;
+    color: #333;
+    border-left: 3px solid #4598DC;
+    text-indent: .12rem;
+    -webkit-transform: translate3d(0, 0.2rem, 0);
+    -moz-transform: translate3d(0, 0.2rem, 0);
+    transform: translate3d(0, 0.2rem, 0);
+    margin: 0 0 0 .3rem; }
+
+/**
+ * Acca Teacher
+ */
+.acca-teacher {
+  margin-top: .2rem; }
+  .acca-teacher h1 {
+    margin-bottom: .4rem; }
+  .acca-teacher p {
+    padding: .2rem;
+    line-height: .3rem;
+    font-size: 0.22rem;
+    color: #787878;
+    border-top: 1px solid #E9E9E9; }
+  .acca-teacher ul {
+    margin: 0;
+    padding: 0 0.2rem; }
+    .acca-teacher ul li {
+      margin: 0.2rem 0.12rem 0 0;
+      padding: 0;
+      float: left;
+      width: 1.1rem;
+      height: 1.1rem;
+      -moz-border-radius: 100%;
+      border-radius: 100%;
+      overflow: hidden;
+      background-color: #f00; }
+      .acca-teacher ul li:nth-of-type(5n) {
+        margin-right: 0; }
+
+/**
+ * Major
+ */
+.acca-major {
+  position: relative;
+  height: auto; }
+  .acca-major .pic {
+    text-align: center;
+    margin-bottom: .1rem; }
+
+/**
+ * Majority
+ */
+.acca-majority .process {
+  display: inline-block;
+  font-size: 0.22rem;
+  color: #fff;
+  text-align: center;
+  line-height: 1.1rem; }
+  .acca-majority .process li:nth-of-type(1), .acca-majority .process li:nth-of-type(2) {
+    background-color: #30AA66; }
+  .acca-majority .process li:nth-of-type(3), .acca-majority .process li:nth-of-type(4), .acca-majority .process li:nth-of-type(5) {
+    background-color: #3698C6; }
+
+/**
+ * Diversification
+ */
+.acca-diversification .text {
+  margin: 0.1rem 0 0.15rem 0;
+  padding: 0 0.2rem;
+  font-size: 0.22rem;
+  color: #3698C6;
+  line-height: .35rem; }
+
+/**
+ * Down
+ */
+.acca-down .down-all-btn {
+  margin: .2rem .4rem;
+  line-height: 0; }
+  .acca-down .down-all-btn a {
+    display: inline-block;
+    margin: 0 0.3rem 0.3rem 0;
+    padding: 0 0;
+    width: 2.5rem;
+    height: 0.8rem;
+    font-size: 0.28rem;
+    color: #fff;
+    -moz-border-radius: .06rem;
+    border-radius: .06rem;
+    text-align: center;
+    line-height: .8rem; }
+    .acca-down .down-all-btn a:nth-of-type(1) {
+      background-color: #3698c6; }
+    .acca-down .down-all-btn a:nth-of-type(2) {
+      background-color: #30AA66; }
+    .acca-down .down-all-btn a:nth-of-type(3) {
+      background-color: #CB9719; }
+    .acca-down .down-all-btn a:nth-of-type(4) {
+      background-color: #C64736; }
+    .acca-down .down-all-btn a:nth-of-type(2n) {
+      margin-right: 0; }
+
+.page-wrap {
+  padding-bottom: .8rem; }

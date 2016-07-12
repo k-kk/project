@@ -1,0 +1,225 @@
+@charset "utf-8";
+
+/**
+ * @update:    2016.07.11;
+ */
+
+@import "comm";
+
+/**
+ * 第一栏导航
+ */
+.acca-else-link{
+  margin-top: 0;
+  a{
+    line-height: 2.3rem; font-size: .22rem;
+  }
+  a:nth-of-type(1):before{
+    width: .63rem; height: .58rem;
+    transform: translate3d(-50%,.29rem,0);
+    @include backPic("acca_banner_icon11.png",.63rem,.58rem,center,center,rgba(0,0,0,1));
+  }
+  a:nth-of-type(2):before{
+    width: .54rem; height: .63rem;
+    transform: translate3d(-50%,.22rem,0);
+    @include backPic("acca_banner_icon22.png",.54rem,.63rem,center,center,rgba(0,0,0,1));
+  }
+  a:nth-of-type(3):before{
+    width: .65rem; height: .52rem;
+    transform: translate3d(-50%,.32rem,0);
+    @include backPic("acca_banner_icon33.png",.65rem,.52rem,center,center,rgba(0,0,0,1));
+  }
+  a:nth-of-type(4):before{
+    width: .41rem; height: .64rem;
+    transform: translate3d(-50%,.2rem,0);
+    @include backPic("acca_banner_icon44.png",.41rem,.64rem,center,center,rgba(0,0,0,1));
+  }
+}
+
+/**
+ * Acca Authentication
+ */
+.acca-introduce{
+
+  background-color: #fff;
+  min-height: 3.6rem;
+  @include borderTop(#eee,1px);
+  @include borderBottom(#eee,1px);
+
+  > h1{
+    @include fontColor(.24rem,#333);
+    @include borderLeft(#4598DC,3px);
+    text-indent: .12rem;
+    transform: translate3d(0,.2rem,0);
+    margin: 0 0 0 .3rem;
+  }
+
+}
+
+.acca-authentication{
+
+  ul{
+    @include borderTop(#E9E9E9,1px);
+    padding: .2rem .3rem .3rem; margin-top: .45rem;
+    li{
+      float: left;
+      position: relative;
+      height: .5rem; margin-bottom: .4rem;
+      line-height: .5rem;
+      @include widthHeight(50%,.5rem);
+      @include fontColor(.24rem,#333);
+      text-indent: .6rem;
+      span{
+        color: #f00;
+      }
+      &:after{
+        content: '';
+        display: block;
+        position: absolute;
+        left: 0; top: 0;
+        width: .5rem; height: .5rem;
+        background-color: #f60;
+      }
+    }
+  }
+
+}
+
+/**
+ * Acca Class
+ */
+.acca-class{
+
+  margin-top: .2rem;
+
+  .item{
+    margin-top: .38rem;
+    padding: 0 .1rem .3rem;
+    @include borderTop(#E9E9E9,1px);
+    a{
+      @include marginPadding(.2rem 0 0 0,.9rem .35rem .35rem);
+      @include widthHeight(6.2rem,3rem);
+      display: block;
+      background-color: #f60;
+      border-radius: .1rem;
+      text-align: center;
+      h1{
+         @include fontColor(.36rem,#fff);
+         font-weight: bold;
+         margin-bottom: .25rem;
+      }
+      p{
+        @include fontColor(.2rem,#fff);
+        line-height: .3rem;
+      }
+    }
+  }
+
+}
+
+/**
+ * Acca Teacher
+ */
+.acca-teacher{
+
+  margin-top: .2rem;
+  height: 4.85rem;
+
+  h1{
+    margin-bottom: .4rem;
+  }
+  p{
+    padding: .2rem;
+    line-height: .3rem;
+    @include fontColor(.22rem,#787878);
+    @include borderTop(#E9E9E9,1px);
+  }
+  ul{
+    @include marginPadding(0, 0 .2rem);
+    li{
+      @include marginPadding(.2rem .12rem 0 0,0);
+      float: left;
+      width: 1.1rem; height: 1.1rem;
+      border-radius: 100%;
+      overflow: hidden;
+      background-color: #f00;
+      &:nth-of-type(5n){
+        margin-right: 0;
+      }
+    }
+  }
+
+}
+
+/**
+ * Training Ttudents
+ */
+.acca-training-students{
+
+  position: relative;
+  height: 4.55rem;
+
+  .target-img{
+    display: block;
+    position: absolute;
+    left: 0; right: 0; bottom: 0;
+    height: 2.9rem;
+    background-color: #f33;
+  }
+
+}
+
+/**
+ * Branch Phone
+ */
+.branch-phone{
+
+  height: auto;
+
+  section{
+    @include borderTop(#E9E9E9,1px);
+    padding-top: .3rem;
+  }
+
+   div{
+    position: relative;
+    width: 50%; float: left;
+    @include marginPadding(0 0 .4rem 0,0 0 0 .6rem)
+    > span,a{
+      @include fontColor(.22rem,#333);
+      display: block;
+      &:after{
+        content: '';
+        display: block;
+        @include widthHeight(.25rem,.27rem);
+        position: absolute;
+        left: .3rem; top: 0;
+        background-color: #f00;
+      }
+    }
+    > a{
+      margin-top: .07rem;
+      &:after{
+        top: .3rem;
+        background-color: #f11;
+      }
+    }
+  }
+
+ > .all-branch{
+  display: inline-block;
+  margin-left: 50%;
+  transform: translate3d(-1.2rem,-.35rem,0);
+  @include widthHeight(2.4rem,.8rem);
+  @include fontColor(.24rem,#fff);
+  background-color: #3698c6;
+  border-radius: .06rem;
+  text-align: center; line-height: .8rem;
+ }
+
+}
+
+
+.page-wrap{
+  padding-bottom: .8rem;
+}

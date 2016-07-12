@@ -580,6 +580,9 @@ summary {
     display: block;
 }
 
+section{
+  width: 100%;
+}
 
 /**
  * 1.防止现代浏览器将没有「controls」属性的 「audio」元素显示出来
@@ -602,7 +605,7 @@ div, section, a, ul , li ,div{
  *  Load 动画
  */
 .load{
-  position: absolute;
+  position: fixed;
   left: 0; top: 0; bottom: 0; right: 0;
   background-color: #fff;
   z-index: 11;
@@ -775,6 +778,7 @@ body .show{
 }
 
 .header h1.show-logo-text{
+  width: 3rem;
   font-size: .28rem; color: #fff;
   text-align: center; line-height: .43rem;
   background-size: 0 0;

@@ -1,0 +1,136 @@
+@charset "utf-8";
+
+/**
+ * @update:    2016.07.11;
+ */
+
+@import "comm";
+
+/**
+ * 第一栏导航
+ */
+.acca-else-link{
+  a{
+    line-height: 2.3rem; font-size: .22rem;
+  }
+  a:nth-of-type(1):before{
+    width: .63rem; height: .58rem;
+    transform: translate3d(-50%,.29rem,0);
+    @include backPic("acca_banner_icon11.png",.63rem,.58rem,center,center,rgba(0,0,0,1));
+  }
+  a:nth-of-type(2):before{
+    width: .54rem; height: .63rem;
+    transform: translate3d(-50%,.22rem,0);
+    @include backPic("acca_banner_icon22.png",.54rem,.63rem,center,center,rgba(0,0,0,1));
+  }
+  a:nth-of-type(3):before{
+    width: .65rem; height: .52rem;
+    transform: translate3d(-50%,.32rem,0);
+    @include backPic("acca_banner_icon33.png",.65rem,.52rem,center,center,rgba(0,0,0,1));
+  }
+  a:nth-of-type(4):before{
+    width: .41rem; height: .64rem;
+    transform: translate3d(-50%,.2rem,0);
+    @include backPic("acca_banner_icon44.png",.41rem,.64rem,center,center,rgba(0,0,0,1));
+  }
+}
+
+/**
+ * Acca Prospect
+ */
+.acca-introduce{
+
+  background-color: #fff;
+  min-height: 4rem;
+  @include borderTop(#eee,1px);
+  @include borderBottom(#eee,1px);
+
+  h1{
+    @include fontColor(.24rem,#333);
+    @include borderLeft(#4598DC,3px);
+    text-indent: .12rem;
+    transform: translate3d(0,.2rem,0);
+    margin: 0 0 .4rem .3rem;
+  }
+
+}
+
+.acca-england{
+
+ padding-bottom: 1.1rem;
+
+ section{
+
+     position: relative;
+     width: 100%; height: 4rem;
+     @include borderTop(#EAEAEA,1px);
+     padding: .25rem .25rem 0;
+
+    > h3{
+      position: relative;
+      width: 1.75rem; height: .24rem;
+      margin: 0 auto; text-align: center;
+      @include fontColor(.24rem,#4985ad);
+      &:after,&:before{
+        content: '';
+        display: block;
+        position: absolute;
+        top: .04rem;
+        width: .2rem; height: .2rem;
+        background-color:#4985ad;
+        border-radius: 100%;
+      }
+      &:after{
+        left: 0;
+      }
+      &:before{
+        right: 0;
+      }
+    }
+
+ }
+
+}
+
+.acca-prospect{
+
+  section{
+    &:nth-of-type(2) > h3{
+      color: #49AD73;
+      &:after,&:before{
+        background-color: #49AD73;
+       }
+    }
+    &:nth-of-type(3) > h3{
+      color: #E6B106;
+      &:after,&:before{
+        background-color: #E6B106;
+       }
+    }
+    &:nth-of-type(3) > h3{
+      color: #D75368;
+      &:after,&:before{
+        background-color: #D75368;
+       }
+    }
+    ul{
+      margin-top: .23rem;
+      li{
+        float: left;
+        &:nth-of-type(1){
+          @include widthHeight(4rem,3.3rem);
+          background-color: #EBEBEB;
+        }
+        &:nth-of-type(2){
+          @include widthHeight(1.9rem,3.3rem);
+          @include fontColor(.18rem,#fff);
+          padding: .15rem; line-height: 1.5;
+          background-color: #2D322A;
+        }
+      }
+    }
+
+  }
+
+}
+
