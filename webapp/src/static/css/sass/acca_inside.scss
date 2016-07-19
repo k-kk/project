@@ -7,6 +7,13 @@
 @import "comm";
 
 /**
+ * Else
+ */
+.else-link{
+  margin-top: 0;
+}
+
+/**
  * 第一栏导航
  */
 .acca-else-link{
@@ -15,23 +22,23 @@
   }
   a:nth-of-type(1):before{
     width: .63rem; height: .58rem;
-    transform: translate3d(-50%,.29rem,0);
-    @include backPic("acca_banner_icon11.png",.63rem,.58rem,center,center,rgba(0,0,0,1));
+    transform: translate3d(-50%,.36rem,0);
+    @include backPic("acca_inside_icon1.png",.58rem,.51rem,center,center,rgba(0,0,0,0));
   }
   a:nth-of-type(2):before{
     width: .54rem; height: .63rem;
-    transform: translate3d(-50%,.22rem,0);
-    @include backPic("acca_banner_icon22.png",.54rem,.63rem,center,center,rgba(0,0,0,1));
+    transform: translate3d(-50%,.3rem,0);
+    @include backPic("acca_inside_icon2.png",.45rem,.6rem,center,center,rgba(0,0,0,0));
   }
   a:nth-of-type(3):before{
     width: .65rem; height: .52rem;
-    transform: translate3d(-50%,.32rem,0);
-    @include backPic("acca_banner_icon33.png",.65rem,.52rem,center,center,rgba(0,0,0,1));
+    transform: translate3d(-50%,.4rem,0);
+    @include backPic("acca_inside_icon3.png",.57rem,.57rem,center,center,rgba(0,0,0,0));
   }
   a:nth-of-type(4):before{
-    width: .41rem; height: .64rem;
-    transform: translate3d(-50%,.2rem,0);
-    @include backPic("acca_banner_icon44.png",.41rem,.64rem,center,center,rgba(0,0,0,1));
+    width: .6rem; height: .64rem;
+    transform: translate3d(-50%,.3rem,0);
+    @include backPic("acca_inside_icon4.png",.6rem,.54rem,center,center,rgba(0,0,0,0));
   }
 }
 
@@ -55,8 +62,10 @@
 
   a.acca-banner-pic{
     display: block;
-    background-color: #000;
     height: 1.8rem;
+    img{
+      @include widthHeight(100%,100%)
+    }
   }
 
   section.introduce{
@@ -91,6 +100,33 @@
      position: relative; float: right;
      @include borderTop(#eee,1px);
      padding: .25rem .25rem 0;
+
+    &:nth-of-type(1){
+      .acca-special > span{
+         @include backPic("acca_inside_icon5.png",.75rem,.72rem,center,center,rgba(0,0,0,0));
+      }
+    }
+    &:nth-of-type(4){
+      .acca-special > span{
+         @include backPic("acca_inside_icon6.png",.75rem,.53rem,center,center,rgba(0,0,0,0));
+      }
+    }
+    &:nth-of-type(2){
+       li{
+
+        &:nth-of-type(7){
+          > span{
+            @include backPic("acca_inside_icon8.png",.75rem,.72rem,center,center,rgba(0,0,0,0));
+          }
+        }
+        &:nth-of-type(8){
+          > span{
+            @include backPic("acca_inside_icon7.png",.54rem,.61rem,center,center,rgba(0,0,0,0));
+          }
+        }
+
+      }
+    }
 
     > h3{
       position: relative;
@@ -176,7 +212,6 @@
       position: absolute;
       left: 50%; margin-left: -.35rem;
       width: .7rem; height: .55rem;
-      background-color: #f00;
     }
   }
 

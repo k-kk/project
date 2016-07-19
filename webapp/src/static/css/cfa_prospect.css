@@ -1,0 +1,154 @@
+@charset "UTF-8";
+/**
+ * @update:    2016.07.11;
+ */
+/**
+ * 第一栏导航
+ */
+.acca-else-link {
+  margin-top: 0; }
+  .acca-else-link a {
+    line-height: 2.3rem;
+    font-size: .22rem; }
+  .acca-else-link a:nth-of-type(1):before {
+    -webkit-transform: translate3d(-50%, 0.31rem, 0);
+    -moz-transform: translate3d(-50%, 0.31rem, 0);
+    transform: translate3d(-50%, 0.31rem, 0);
+    width: 0.6rem;
+    height: 0.64rem;
+    background: url("../img/cfa_public_icon1.png") center center no-repeat transparent;
+    -moz-background-size: 0.56rem 0.5rem;
+    background-size: 0.56rem 0.5rem; }
+  .acca-else-link a:nth-of-type(2):before {
+    -webkit-transform: translate3d(-50%, 0.3rem, 0);
+    -moz-transform: translate3d(-50%, 0.3rem, 0);
+    transform: translate3d(-50%, 0.3rem, 0);
+    width: 0.54rem;
+    height: 0.63rem;
+    background: url("../img/acca_inside_icon2.png") center center no-repeat transparent;
+    -moz-background-size: 0.45rem 0.6rem;
+    background-size: 0.45rem 0.6rem; }
+  .acca-else-link a:nth-of-type(3):before {
+    -webkit-transform: translate3d(-50%, 0.4rem, 0);
+    -moz-transform: translate3d(-50%, 0.4rem, 0);
+    transform: translate3d(-50%, 0.4rem, 0);
+    width: 0.65rem;
+    height: 0.52rem;
+    background: url("../img/acca_inside_icon3.png") center center no-repeat transparent;
+    -moz-background-size: 0.57rem 0.57rem;
+    background-size: 0.57rem 0.57rem; }
+  .acca-else-link a:nth-of-type(4):before {
+    -webkit-transform: translate3d(-50%, 0.3rem, 0);
+    -moz-transform: translate3d(-50%, 0.3rem, 0);
+    transform: translate3d(-50%, 0.3rem, 0);
+    width: 0.6rem;
+    height: 0.64rem;
+    background: url("../img/acca_inside_icon4.png") center center no-repeat transparent;
+    -moz-background-size: 0.6rem 0.54rem;
+    background-size: 0.6rem 0.54rem; }
+
+/**
+ * Else Css
+ */
+.acca-introduce {
+  background-color: #fff;
+  border-top: 1px solid #E9E9E9;
+  border-bottom: 1px solid #E9E9E9; }
+  .acca-introduce > h1 {
+    font-size: 0.24rem;
+    color: #333;
+    border-left: 3px solid #4598DC;
+    text-indent: .12rem;
+    -webkit-transform: translate3d(0, 0.2rem, 0);
+    -moz-transform: translate3d(0, 0.2rem, 0);
+    transform: translate3d(0, 0.2rem, 0);
+    margin: 0 0 0 .3rem; }
+
+.acca-teacher {
+  position: relative;
+  height: auto;
+  margin-top: .2rem; }
+  .acca-teacher h1 {
+    margin-bottom: .4rem; }
+  .acca-teacher p {
+    padding: 0 .2rem .2rem;
+    line-height: .3rem;
+    font-size: 0.22rem;
+    color: #787878; }
+  .acca-teacher .pic {
+    border-top: 1px solid #E9E9E9;
+    padding-top: 1.3rem;
+    text-align: center; }
+  .acca-teacher:nth-of-type(1) div.pic {
+    width: 100%;
+    height: 0.67rem;
+    background: url("../img/cfa_prospect_icon1.png") center center no-repeat transparent;
+    -moz-background-size: 0.73rem 0.67rem;
+    background-size: 0.73rem 0.67rem; }
+  .acca-teacher:nth-of-type(2) div.pic {
+    width: 100%;
+    height: 0.68rem;
+    background: url("../img/cfa_prospect_icon2.png") center center no-repeat transparent;
+    -moz-background-size: 0.63rem 0.68rem;
+    background-size: 0.63rem 0.68rem; }
+  .acca-teacher:nth-of-type(3) div.pic {
+    width: 100%;
+    height: 0.78rem;
+    background: url("../img/cfa_prospect_icon3.png") center center no-repeat transparent;
+    -moz-background-size: 0.78rem 0.78rem;
+    background-size: 0.78rem 0.78rem; }
+
+.page-wrap {
+  padding-bottom: .8rem; }
+
+/**
+ * CMA Certificate
+ */
+.cma-certificate ul {
+  margin: 0.4rem 0 0;
+  padding: 0 0.2rem;
+  border-top: 1px solid #E9E9E9; }
+  .cma-certificate ul li {
+    position: relative;
+    text-indent: .89rem;
+    height: .7rem;
+    margin: 0.3rem 0 0;
+    padding: 0; }
+    .cma-certificate ul li hgroup {
+      padding-top: .05rem; }
+    .cma-certificate ul li h1 {
+      font-size: 0.24rem;
+      color: #333;
+      margin: 0 0 0.05rem;
+      padding: 0; }
+    .cma-certificate ul li h2 {
+      font-size: 0.2rem;
+      color: #666; }
+    .cma-certificate ul li:last-of-type {
+      margin-bottom: .4rem; }
+    .cma-certificate ul li:after {
+      content: '';
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 0.7rem;
+      height: 0.7rem;
+      -moz-border-radius: .15rem;
+      border-radius: .15rem; }
+    .cma-certificate ul li:nth-of-type(1):after {
+      background: url("../img/cma_prospect_icon2.png") center center no-repeat #F1F1F1;
+      -moz-background-size: 0.4rem 0.56rem;
+      background-size: 0.4rem 0.56rem; }
+    .cma-certificate ul li:nth-of-type(2):after {
+      background: url("../img/cma_prospect_icon3.png") center center no-repeat #F1F1F1;
+      -moz-background-size: 0.53rem 0.44rem;
+      background-size: 0.53rem 0.44rem; }
+    .cma-certificate ul li:nth-of-type(3):after {
+      background: url("../img/cma_prospect_icon4.png") center center no-repeat #F1F1F1;
+      -moz-background-size: 0.45rem 0.48rem;
+      background-size: 0.45rem 0.48rem; }
+    .cma-certificate ul li:nth-of-type(4):after {
+      background: url("../img/cma_prospect_icon5.png") center center no-repeat #F1F1F1;
+      -moz-background-size: 0.34rem 0.51rem;
+      background-size: 0.34rem 0.51rem; }

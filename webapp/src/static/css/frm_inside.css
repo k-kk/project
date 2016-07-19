@@ -1,0 +1,347 @@
+@charset "UTF-8";
+/**
+ * @update:    2016.07.15;
+ */
+/**
+ * 第一栏导航
+ */
+.acca-else-link a {
+  line-height: 2.3rem;
+  font-size: .22rem; }
+
+.acca-else-link a:nth-of-type(1):before {
+  width: .63rem;
+  height: .58rem;
+  -webkit-transform: translate3d(-50%, 0.36rem, 0);
+  -moz-transform: translate3d(-50%, 0.36rem, 0);
+  transform: translate3d(-50%, 0.36rem, 0);
+  background: url("../img/acca_inside_icon1.png") center center no-repeat transparent;
+  -moz-background-size: 0.58rem 0.51rem;
+  background-size: 0.58rem 0.51rem; }
+
+.acca-else-link a:nth-of-type(2):before {
+  width: .54rem;
+  height: .63rem;
+  -webkit-transform: translate3d(-50%, 0.3rem, 0);
+  -moz-transform: translate3d(-50%, 0.3rem, 0);
+  transform: translate3d(-50%, 0.3rem, 0);
+  background: url("../img/acca_inside_icon2.png") center center no-repeat transparent;
+  -moz-background-size: 0.45rem 0.6rem;
+  background-size: 0.45rem 0.6rem; }
+
+.acca-else-link a:nth-of-type(3):before {
+  width: .65rem;
+  height: .52rem;
+  -webkit-transform: translate3d(-50%, 0.4rem, 0);
+  -moz-transform: translate3d(-50%, 0.4rem, 0);
+  transform: translate3d(-50%, 0.4rem, 0);
+  background: url("../img/acca_inside_icon3.png") center center no-repeat transparent;
+  -moz-background-size: 0.57rem 0.57rem;
+  background-size: 0.57rem 0.57rem; }
+
+.acca-else-link a:nth-of-type(4):before {
+  width: .6rem;
+  height: .64rem;
+  -webkit-transform: translate3d(-50%, 0.3rem, 0);
+  -moz-transform: translate3d(-50%, 0.3rem, 0);
+  transform: translate3d(-50%, 0.3rem, 0);
+  background: url("../img/acca_inside_icon4.png") center center no-repeat transparent;
+  -moz-background-size: 0.6rem 0.54rem;
+  background-size: 0.6rem 0.54rem; }
+
+/**
+ * Acca Introduce
+ */
+.acca-introduce {
+  background-color: #fff;
+  min-height: 4rem;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee; }
+  .acca-introduce h1 {
+    font-size: 0.24rem;
+    color: #333;
+    border-left: 3px solid #4598DC;
+    text-indent: .12rem;
+    -webkit-transform: translate3d(0, 0.2rem, 0);
+    -moz-transform: translate3d(0, 0.2rem, 0);
+    transform: translate3d(0, 0.2rem, 0);
+    margin: 0 0 .4rem .3rem; }
+  .acca-introduce a.acca-banner-pic {
+    display: block;
+    height: 1.8rem; }
+    .acca-introduce a.acca-banner-pic img {
+      width: 100%;
+      height: 100%; }
+  .acca-introduce section.introduce {
+    margin: 0;
+    padding: 0.4rem 0.25rem 0.2rem; }
+    .acca-introduce section.introduce h2 {
+      font-size: 0.25rem;
+      color: #4598DC;
+      text-align: center; }
+    .acca-introduce section.introduce p {
+      font-size: 0.24rem;
+      color: #727272;
+      line-height: .35rem; }
+  .acca-introduce:nth-of-type(2) {
+    margin-top: .1rem; }
+  .acca-introduce:nth-of-type(3) {
+    margin-top: .25rem; }
+
+/**
+ * Acca Introduce
+ */
+.acca-england {
+  height: 22.5rem; }
+  .acca-england section {
+    position: relative;
+    float: right;
+    border-top: 1px solid #eee;
+    padding: .25rem .25rem 0; }
+    .acca-england section:nth-of-type(1) .acca-special > span {
+      background: url("../img/acca_inside_icon5.png") center center no-repeat transparent;
+      -moz-background-size: 0.75rem 0.72rem;
+      background-size: 0.75rem 0.72rem; }
+    .acca-england section:nth-of-type(4) .acca-special > span {
+      background: url("../img/acca_inside_icon6.png") center center no-repeat transparent;
+      -moz-background-size: 0.75rem 0.53rem;
+      background-size: 0.75rem 0.53rem; }
+    .acca-england section:nth-of-type(2) li:nth-of-type(7) > span {
+      background: url("../img/acca_inside_icon8.png") center center no-repeat transparent;
+      -moz-background-size: 0.75rem 0.72rem;
+      background-size: 0.75rem 0.72rem; }
+    .acca-england section:nth-of-type(2) li:nth-of-type(8) > span {
+      background: url("../img/acca_inside_icon7.png") center center no-repeat transparent;
+      -moz-background-size: 0.54rem 0.61rem;
+      background-size: 0.54rem 0.61rem; }
+    .acca-england section > h3 {
+      position: relative;
+      width: 1.75rem;
+      height: .24rem;
+      margin: 0 auto;
+      text-align: center;
+      font-size: 0.24rem;
+      color: #4985ad; }
+      .acca-england section > h3:after, .acca-england section > h3:before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: .04rem;
+        width: .2rem;
+        height: .2rem;
+        background-color: #4985ad;
+        -moz-border-radius: 100%;
+        border-radius: 100%; }
+      .acca-england section > h3:after {
+        left: 0; }
+      .acca-england section > h3:before {
+        right: 0; }
+    .acca-england section ul {
+      margin-top: .25rem; }
+      .acca-england section ul li {
+        float: left;
+        position: relative;
+        margin: 0 .3rem .2rem 0;
+        padding: .2rem;
+        width: 2.8rem;
+        height: 1.2rem;
+        background-color: #EAEAEA; }
+        .acca-england section ul li:nth-of-type(2n) {
+          margin-right: 0; }
+        .acca-england section ul li span {
+          position: absolute;
+          top: .2rem;
+          left: .2rem;
+          font-size: 0.35rem;
+          color: #4985AD; }
+  .acca-england .england-li hgroup {
+    position: absolute;
+    left: .8rem;
+    top: .2rem;
+    width: 1.6rem; }
+  .acca-england .england-li h3 {
+    font-size: 0.24rem;
+    color: #666; }
+  .acca-england .england-li h4 {
+    font-size: 0.16rem;
+    color: #666; }
+  .acca-england .england-li aside {
+    font-size: 0.18rem;
+    color: #4985ad;
+    text-align: center;
+    margin-top: .64rem; }
+
+.acca-england-two {
+  border-top: 0px solid #eee; }
+
+.acca-england {
+  border-bottom: 0px solid #eee; }
+
+.acca-england .acca-special span {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 50%;
+  margin-left: -.35rem;
+  width: .7rem;
+  height: .55rem; }
+
+.acca-england section:nth-of-type(2) {
+  padding-top: 0;
+  border-top: 0; }
+  .acca-england section:nth-of-type(2) h3 {
+    color: #49AD73; }
+    .acca-england section:nth-of-type(2) h3:before, .acca-england section:nth-of-type(2) h3:after {
+      background-color: #49AD73; }
+  .acca-england section:nth-of-type(2) ul li span, .acca-england section:nth-of-type(2) ul li aside {
+    color: #49AD73; }
+
+.acca-england section:nth-of-type(3) {
+  padding-top: 0;
+  border-top: 0; }
+  .acca-england section:nth-of-type(3) h3 {
+    color: #E6B106; }
+    .acca-england section:nth-of-type(3) h3:before, .acca-england section:nth-of-type(3) h3:after {
+      background-color: #E6B106; }
+  .acca-england section:nth-of-type(3) ul li::last-of-type {
+    clear: both; }
+  .acca-england section:nth-of-type(3) ul li span, .acca-england section:nth-of-type(3) ul li aside {
+    color: #E6B106; }
+
+.acca-england section:nth-of-type(4) {
+  padding-top: 0;
+  border-top: 0; }
+  .acca-england section:nth-of-type(4) h3 {
+    color: #D75368; }
+    .acca-england section:nth-of-type(4) h3:before, .acca-england section:nth-of-type(4) h3:after {
+      background-color: #D75368; }
+  .acca-england section:nth-of-type(4) ul li::last-of-type {
+    clear: both; }
+  .acca-england section:nth-of-type(4) ul li span, .acca-england section:nth-of-type(4) ul li aside {
+    color: #D75368; }
+
+.acca-england section:nth-of-type(5) {
+  padding-top: 0;
+  border-top: 0; }
+  .acca-england section:nth-of-type(5) h3 {
+    color: #0DAFB7;
+    width: 2.2rem; }
+    .acca-england section:nth-of-type(5) h3:before, .acca-england section:nth-of-type(5) h3:after {
+      background-color: #0DAFB7; }
+  .acca-england section:nth-of-type(5) ul li::last-of-type {
+    clear: both; }
+  .acca-england section:nth-of-type(5) ul li span, .acca-england section:nth-of-type(5) ul li aside {
+    color: #0DAFB7; }
+
+/**
+ * CIMA Rest England
+ */
+.cima-reset-england section:nth-of-type(1) > ul li span, .cima-reset-england section:nth-of-type(2) > ul li span, .cima-reset-england section:nth-of-type(3) > ul li span, .cima-reset-england section:nth-of-type(4) > ul li span, .cima-reset-england section:nth-of-type(5) > ul li span {
+  position: static;
+  display: block;
+  font-size: .3rem;
+  text-align: center;
+  margin: .03rem 0 .08rem; }
+
+.cima-reset-england section:nth-of-type(1) > ul li h3, .cima-reset-england section:nth-of-type(2) > ul li h3, .cima-reset-england section:nth-of-type(3) > ul li h3, .cima-reset-england section:nth-of-type(4) > ul li h3, .cima-reset-england section:nth-of-type(5) > ul li h3 {
+  font-size: .22rem;
+  text-align: center; }
+
+.cima-reset-england section:nth-of-type(1) > ul li:nth-of-type(5) span, .cima-reset-england section:nth-of-type(2) > ul li:nth-of-type(5) span, .cima-reset-england section:nth-of-type(3) > ul li:nth-of-type(5) span, .cima-reset-england section:nth-of-type(4) > ul li:nth-of-type(5) span, .cima-reset-england section:nth-of-type(5) > ul li:nth-of-type(5) span {
+  margin: -.08rem 0 0; }
+
+.cima-reset-england section:nth-of-type(1) > ul li:nth-of-type(5) h3, .cima-reset-england section:nth-of-type(2) > ul li:nth-of-type(5) h3, .cima-reset-england section:nth-of-type(3) > ul li:nth-of-type(5) h3, .cima-reset-england section:nth-of-type(4) > ul li:nth-of-type(5) h3, .cima-reset-england section:nth-of-type(5) > ul li:nth-of-type(5) h3 {
+  width: 1.8rem;
+  margin: 0 auto; }
+
+.cima-reset-england section:nth-of-type(1) > ul li:last-of-type.acca-special::before, .cima-reset-england section:nth-of-type(2) > ul li:last-of-type.acca-special::before, .cima-reset-england section:nth-of-type(3) > ul li:last-of-type.acca-special::before, .cima-reset-england section:nth-of-type(4) > ul li:last-of-type.acca-special::before, .cima-reset-england section:nth-of-type(5) > ul li:last-of-type.acca-special::before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate3d(-50%, -0.02rem, 0);
+  -moz-transform: translate3d(-50%, -0.02rem, 0);
+  transform: translate3d(-50%, -0.02rem, 0);
+  width: 0.72rem;
+  height: 0.54rem;
+  background: url("../img/cima_inside_icon4.png") center center no-repeat transparent;
+  -moz-background-size: 0.72rem 0.54rem;
+  background-size: 0.72rem 0.54rem; }
+
+.cima-reset-england section:nth-of-type(2) ul li:last-of-type.acca-special::before {
+  background: url("../img/cima_inside_icon2.png") center center no-repeat transparent;
+  -moz-background-size: 0.72rem 0.54rem;
+  background-size: 0.72rem 0.54rem; }
+
+.cima-reset-england section:nth-of-type(3) ul li:last-of-type.acca-special::before {
+  background: url("../img/cima_inside_icon3.png") center center no-repeat transparent;
+  -moz-background-size: 0.72rem 0.54rem;
+  background-size: 0.72rem 0.54rem; }
+
+.cima-reset-england section:nth-of-type(5) ul li:last-of-type.acca-special::before {
+  -webkit-transform: translate3d(-50%, -0.15rem, 0);
+  -moz-transform: translate3d(-50%, -0.15rem, 0);
+  transform: translate3d(-50%, -0.15rem, 0);
+  width: 0.7rem;
+  height: 0.67rem;
+  background: url("../img/cima_inside_icon1.png") center center no-repeat transparent;
+  -moz-background-size: 0.7rem 0.67rem;
+  background-size: 0.7rem 0.67rem; }
+
+.cima-reset-england section:nth-of-type(5) aside {
+  line-height: 1;
+  -webkit-transform: translate3d(0, -0.09rem, 0);
+  -moz-transform: translate3d(0, -0.09rem, 0);
+  transform: translate3d(0, -0.09rem, 0); }
+
+/**
+ * ELSE CSS
+ */
+.cma-major .pic2 {
+  text-align: center;
+  height: 1.8rem;
+  background-color: #f9f9f9;
+  border-top: 1px solid #e9e9e9; }
+  .cma-major .pic2 img {
+    width: 6.4rem;
+    height: 1.8rem; }
+
+.cma-major h6 {
+  text-align: center;
+  margin: .3rem 0 .1rem 0;
+  font-size: 0.24rem;
+  color: #0489E1; }
+
+.cma-major p {
+  padding-top: 0; }
+
+.acca-major {
+  position: relative;
+  height: auto; }
+  .acca-major .pic {
+    text-align: center;
+    margin-bottom: .1rem; }
+
+.acca-teacher {
+  margin-top: .2rem; }
+  .acca-teacher h1 {
+    margin-bottom: .4rem; }
+  .acca-teacher p {
+    padding: 0 .2rem .2rem;
+    line-height: .3rem;
+    font-size: 0.22rem;
+    color: #787878; }
+  .acca-teacher ul {
+    margin: 0;
+    padding: 0 0.2rem; }
+    .acca-teacher ul li {
+      margin: 0.2rem 0.12rem 0 0;
+      padding: 0;
+      float: left;
+      width: 1.1rem;
+      height: 1.1rem;
+      -moz-border-radius: 100%;
+      border-radius: 100%;
+      overflow: hidden; }
+      .acca-teacher ul li:nth-of-type(5n) {
+        margin-right: 0; }

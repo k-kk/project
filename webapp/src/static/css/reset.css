@@ -688,7 +688,7 @@ body .show {
     top: .18rem;
     width: .27rem;
     height: .44rem;
-    background: url("../img/phone-icon.png") no-repeat;
+    background: url("../img/phone-icon.png") no-repeat center center;
     -moz-background-size: .27rem .44rem;
     background-size: .27rem .44rem; }
 
@@ -722,7 +722,7 @@ body .show {
     display: inline-block;
     color: #333;
     box-border: border-box;
-    font-size: .28rem;
+    font-size: .24rem;
     border-right: 1px solid #f3f3f3;
     text-align: center;
     line-height: 2.2rem; }
@@ -755,9 +755,13 @@ body .show {
     display: block;
     position: absolute;
     left: 50%;
-    -webkit-transform: translate3d(-50%, 0.24rem, 0);
-    -moz-transform: translate3d(-50%, 0.24rem, 0);
-    transform: translate3d(-50%, 0.24rem, 0); }
+    -webkit-transform: translate3d(-50%, 0.3rem, 0);
+    -moz-transform: translate3d(-50%, 0.3rem, 0);
+    transform: translate3d(-50%, 0.3rem, 0); }
+  .else-link a:nth-of-type(3):before {
+    -webkit-transform: translate3d(-50%, 0.35rem, 0);
+    -moz-transform: translate3d(-50%, 0.35rem, 0);
+    transform: translate3d(-50%, 0.35rem, 0); }
 
 /**
  * Nav
@@ -956,3 +960,26 @@ body .show {
 
 .slide-banner ol li.active {
   background-color: #fff; }
+
+/**
+ * Fixed
+ */
+.fixed-nav {
+  position: fixed;
+  z-index: 6;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: .6rem;
+  background-color: rgba(255, 255, 255, 0.8); }
+  .fixed-nav a {
+    color: #333;
+    font-size: .2rem;
+    display: block;
+    float: left;
+    width: 25%;
+    height: inherit;
+    text-align: center;
+    line-height: .6rem; }
+    .fixed-nav a.active {
+      color: #3698C6; }

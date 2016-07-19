@@ -805,7 +805,7 @@ body .show{
     position: absolute;
     left: .3rem; top: .18rem;
     width: .27rem; height: .44rem;
-    background: url("../img/phone-icon.png") no-repeat;
+    background: url("../img/phone-icon.png") no-repeat center center;
     background-size: .27rem .44rem;
   }
 }
@@ -837,7 +837,7 @@ body .show{
     flex: 4;
     display: inline-block;
     color: #333;  box-border: border-box;
-    font-size: .28rem; border-right: 1px solid #f3f3f3;
+    font-size: .24rem; border-right: 1px solid #f3f3f3;
     text-align: center; line-height: 2.2rem;
 
     &:nth-of-type(1):before{
@@ -867,8 +867,11 @@ body .show{
     display: block;
     position: absolute;
     left: 50%;
-    -webkit-transform: translate3d(-50%,.24rem,0);
-    transform: translate3d(-50%,.24rem,0);
+    transform: translate3d(-50%,.3rem,0);
+  }
+
+  a:nth-of-type(3):before{
+    transform: translate3d(-50%,.35rem,0);
   }
 
 }
@@ -1055,4 +1058,26 @@ body .show{
 
 .slide-banner ol li.active{
   background-color: #fff;
+}
+
+/**
+ * Fixed
+ */
+.fixed-nav{
+   position: fixed;
+   z-index:6;
+   left: 0; right: 0; top: 0;
+   height: .6rem;
+   background-color: rgba(255,255,255,.8);
+   a{
+      color: #333; font-size: .2rem;
+      display: block;
+      float: left;
+      width: 25%; height: inherit;
+      text-align: center;
+      line-height: .6rem;
+      &.active{
+        color: #3698C6;
+      }
+   }
 }

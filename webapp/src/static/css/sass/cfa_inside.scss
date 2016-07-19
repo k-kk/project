@@ -1,0 +1,326 @@
+@charset "utf-8";
+
+/**
+ * @update:    2016.07.13;
+ */
+
+@import "comm";
+
+/**
+ * 第一栏导航
+ */
+.acca-else-link{
+  margin-top: 0;
+  a{
+    line-height: 2.3rem; font-size: .22rem;
+  }
+  a:nth-of-type(1):before{
+    width: .63rem; height: .58rem;
+    transform: translate3d(-50%,.36rem,0);
+    @include backPic("acca_inside_icon1.png",.58rem,.51rem,center,center,rgba(0,0,0,0));
+  }
+  a:nth-of-type(2):before{
+    width: .54rem; height: .63rem;
+    transform: translate3d(-50%,.3rem,0);
+    @include backPic("acca_inside_icon2.png",.45rem,.6rem,center,center,rgba(0,0,0,0));
+  }
+  a:nth-of-type(3):before{
+    width: .65rem; height: .52rem;
+    transform: translate3d(-50%,.4rem,0);
+    @include backPic("acca_inside_icon3.png",.57rem,.57rem,center,center,rgba(0,0,0,0));
+  }
+  a:nth-of-type(4):before{
+    width: .6rem; height: .64rem;
+    transform: translate3d(-50%,.3rem,0);
+    @include backPic("acca_inside_icon4.png",.6rem,.54rem,center,center,rgba(0,0,0,0));
+  }
+}
+
+/**
+ * Acca Authentication
+ */
+.acca-introduce{
+
+  background-color: #fff;
+  @include borderTop(#E9E9E9,1px);
+  @include borderBottom(#E9E9E9,1px);
+
+  > h1{
+    @include fontColor(.24rem,#333);
+    @include borderLeft(#4598DC,3px);
+    text-indent: .12rem;
+    transform: translate3d(0,.2rem,0);
+    margin: 0 0 0 .3rem;
+  }
+
+}
+
+
+/**
+ * Acca Teacher
+ */
+.acca-teacher{
+
+  margin-top: .2rem;
+
+  h1{
+    margin-bottom: .4rem;
+  }
+  p{
+    padding: .2rem;
+    line-height: .3rem;
+    @include fontColor(.22rem,#787878);
+  }
+  ul{
+    @include marginPadding(0, 0 .2rem);
+    li{
+      @include marginPadding(.2rem .12rem 0 0,0);
+      float: left;
+      width: 1.1rem; height: 1.1rem;
+      border-radius: 100%;
+      overflow: hidden;
+    }
+  }
+
+}
+
+/**
+ * Major
+ */
+.acca-major{
+
+  position: relative;
+  height: auto;
+
+  .pic{
+    text-align: center;
+    margin-bottom: .1rem;
+  }
+
+}
+
+/**
+ * Majority
+ */
+.acca-majority{
+  .process{
+    display: inline-block;
+    @include fontColor(.22rem,#fff);
+    text-align: center; line-height: 1.1rem;
+    li{
+      &:nth-of-type(1),&:nth-of-type(2){
+        background-color: #30AA66;
+      }
+      &:nth-of-type(3),&:nth-of-type(4),&:nth-of-type(5){
+        background-color: #3698C6;
+      }
+    }
+  }
+}
+
+/**
+ * Diversification
+ */
+.acca-diversification{
+  .text{
+    @include marginPadding(.1rem 0 .15rem 0, 0 .2rem);
+    @include fontColor(.22rem,#3698C6);
+    line-height: .35rem;
+  }
+}
+
+/**
+ * Down
+ */
+.acca-down{
+
+  .down-all-btn{
+    margin: .2rem .4rem;
+    line-height: 0;
+    a{
+      display: inline-block;
+      @include marginPadding(0 .3rem .3rem 0, 0 0);
+      @include widthHeight(2.5rem,.8rem);
+      @include fontColor(.28rem,#fff);
+      border-radius: .06rem;
+      text-align: center; line-height: .8rem;
+      &:nth-of-type(1){
+        background-color: #3698c6;
+      }
+      &:nth-of-type(2){
+        background-color: #30AA66;
+      }
+      &:nth-of-type(3){
+        background-color: #CB9719;
+      }
+      &:nth-of-type(4){
+        background-color: #C64736;
+      }
+      &:nth-of-type(2n){
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+
+/**
+ * CMA Major
+ */
+.cma-major{
+  .pic2{
+    text-align: center;
+    height: 1.8rem;
+    background-color: #f9f9f9;
+    @include borderTop(#e9e9e9,1px);
+    img{
+      @include widthHeight(6.4rem,1.8rem);
+    }
+  }
+  h6{
+    text-align: center;
+    margin: .3rem 0 .1rem 0;
+    @include fontColor(.24rem,#0489E1);
+  }
+  p{
+    padding-top: 0;
+  }
+}
+
+/**
+ * Cma Reg
+ */
+.cma-reg{
+  .pic-introduce{
+    &:nth-of-type(1){
+      margin-top: .5rem;
+    }
+    height: 4.94rem;
+    background-color: #f00;
+    margin-bottom: .35rem;
+    img{
+      @include widthHeight(6.4rem,4.94rem);
+    }
+  }
+}
+
+
+/**
+ * ELSE CSS
+ */
+
+.acca-england{
+
+
+ section{
+
+     position: relative;
+     @include borderTop(#eee,1px);
+     padding: .25rem .25rem 0;
+
+    > h3{
+      position: relative;
+      width: 1.75rem; height: .24rem;
+      margin: 0 auto; text-align: center;
+      @include fontColor(.24rem,#4985ad);
+      &:after,&:before{
+        content: '';
+        display: block;
+        position: absolute;
+        top: .04rem;
+        width: .2rem; height: .2rem;
+        background-color:#4985ad;
+        border-radius: 100%;
+      }
+      &:after{
+        left: 0;
+      }
+      &:before{
+        right: 0;
+      }
+    }
+
+    ul{
+
+      display: inline-block;
+      @include marginPadding(.25rem 0 0,0);
+
+      li{
+        float: left; position: relative;
+        @include marginPadding(0 .3rem .2rem 0,.2rem);
+        border-radius: 0;
+        @include widthHeight(2.8rem,1.2rem);
+        background-color: #EAEAEA;
+        &:nth-of-type(1) span{
+          @include backPic("cfa_inside_icon2.png",.41rem,.43rem,center,bottom,rgba(0,0,0,0));
+        }
+        &:nth-of-type(2) span{
+          @include backPic("cfa_inside_icon3.png",.38rem,.46rem,center,bottom,rgba(0,0,0,0));
+        }
+        &:nth-of-type(3) span{
+          @include backPic("cfa_inside_icon4.png",.43rem,.5rem,center,bottom,rgba(0,0,0,0));
+        }
+        &:nth-of-type(4) span{
+          @include backPic("cfa_inside_icon5.png",.42rem,.43rem,center,bottom,rgba(0,0,0,0));
+        }
+        &:nth-of-type(5) span{
+          @include backPic("cfa_inside_icon6.png",.28rem,.50rem,center,bottom,rgba(0,0,0,0));
+        }
+        &:nth-of-type(6) span{
+          @include backPic("cfa_inside_icon7.png",.33rem,.49rem,center,bottom,rgba(0,0,0,0));
+        }
+        &:nth-of-type(7) span{
+          @include backPic("cfa_inside_icon8.png",.38rem,.47rem,center,bottom,rgba(0,0,0,0));
+        }
+        &:nth-of-type(8) span{
+          @include backPic("cfa_inside_icon9.png",.47rem,.48rem,center,bottom,rgba(0,0,0,0));
+        }
+        &:nth-of-type(9) span{
+          @include backPic("cfa_inside_icon10.png",.47rem,.42rem,center,bottom,rgba(0,0,0,0));
+        }
+        &:nth-of-type(10) span{
+          @include backPic("cfa_inside_icon11.png",.53rem,.42rem,center,bottom,rgba(0,0,0,0));
+        }
+        &:nth-of-type(2n){
+          margin-right: 0;
+        }
+        span{
+          position: absolute;
+          top: .19rem; left: 50%;
+          margin-left: -.25rem;
+          @include widthHeight(.55rem,.5rem);
+          @include fontColor(.35rem,#4985AD);
+          background-color: red;
+        }
+      }
+
+    }
+ }
+
+ .england-li{
+
+  hgroup{
+    position: absolute;
+    left: .8rem; top: .2rem;
+    width: 1.6rem;
+  }
+
+  h3{
+    @include fontColor(.24rem,#666);
+  }
+  h4{
+    @include fontColor(.16rem,#666);
+  }
+  aside{
+    @include fontColor(.2rem,#4985ad);
+    text-align: center;
+    margin-top: .6rem;
+  }
+
+ }
+
+}
+
+.page-wrap{
+  padding-bottom: .8rem;
+}

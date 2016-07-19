@@ -1,0 +1,195 @@
+@charset "utf-8";
+
+/**
+ * @update:    2016.07.11;
+ */
+
+@import "comm";
+
+/**
+ * 第一栏导航
+ */
+.acca-else-link{
+  margin-top: 0;
+  a{
+    line-height: 2.3rem; font-size: .22rem;
+  }
+  a:nth-of-type(1):before{
+    transform: translate3d(-50%,.3rem,0);
+    @include widthHeight(.6rem,.64rem);
+    @include backPic("cfa_public_icon1.png",.58rem,.51rem,center,center,rgba(0,0,0,0));
+  }
+  a:nth-of-type(2):before{
+    transform: translate3d(-50%,.3rem,0);
+    @include widthHeight(.54rem,.63rem);
+    @include backPic("acca_inside_icon2.png",.45rem,.6rem,center,center,rgba(0,0,0,0));
+  }
+  a:nth-of-type(3):before{
+    transform: translate3d(-50%,.4rem,0);
+    @include widthHeight(.65rem,.52rem);
+    @include backPic("acca_inside_icon3.png",.57rem,.57rem,center,center,rgba(0,0,0,0));
+  }
+  a:nth-of-type(4):before{
+    transform: translate3d(-50%,.3rem,0);
+    @include widthHeight(.6rem,.64rem);
+    @include backPic("acca_inside_icon4.png",.6rem,.54rem,center,center,rgba(0,0,0,0));
+  }
+}
+
+/**
+ * Acca Authentication
+ */
+.acca-introduce{
+
+  background-color: #fff;
+  @include borderTop(#E9E9E9,1px);
+  @include borderBottom(#E9E9E9,1px);
+
+  > h1{
+    @include fontColor(.24rem,#333);
+    @include borderLeft(#4598DC,3px);
+    text-indent: .12rem;
+    transform: translate3d(0,.2rem,0);
+    margin: 0 0 0 .3rem;
+  }
+
+}
+
+
+/**
+ * Acca Teacher
+ */
+.acca-teacher{
+
+  margin-top: .2rem;
+
+  h1{
+    margin-bottom: .4rem;
+  }
+  p{
+    padding: .2rem;
+    line-height: .3rem;
+    @include fontColor(.22rem,#787878);
+    @include borderTop(#E9E9E9,1px);
+  }
+  ul{
+    @include marginPadding(0, 0 .2rem);
+    li{
+      @include marginPadding(.2rem .12rem 0 0,0);
+      float: left;
+      width: 1.1rem; height: 1.1rem;
+      border-radius: 100%;
+      overflow: hidden;
+      background-color: #f00;
+      &:nth-of-type(5n){
+        margin-right: 0;
+      }
+    }
+  }
+
+}
+
+/**
+ * Major
+ */
+.acca-major{
+
+  position: relative;
+  height: auto;
+
+  .pic{
+    text-align: center;
+    margin-bottom: .1rem;
+  }
+
+  &:nth-of-type(1){
+    > div.pic{
+      @include widthHeight(100%,1.68rem);
+      @include backPic("acca_online_pic1.png",5.78rem,1.68rem,center,center,rgba(0,0,0,0));
+    }
+  }
+   &:nth-of-type(3){
+    > div.pic{
+      margin-bottom: 0;
+      @include widthHeight(100%,1.18rem);
+      @include backPic("acca_online_pic2.jpg",6.02rem,1.18rem,center,center,rgba(0,0,0,0));
+    }
+  }
+   &:nth-of-type(4){
+    > div.pic{
+      @include widthHeight(100%,4.36rem);
+      @include backPic("cfa_online_pic.png",4.59rem,4.36rem,center,center,rgba(0,0,0,0));
+      margin-bottom: .25rem;
+    }
+  }
+
+}
+
+/**
+ * Majority
+ */
+.acca-majority{
+  .process{
+    display: inline-block;
+    @include fontColor(.22rem,#fff);
+    text-align: center; line-height: 1.1rem;
+    li{
+      &:nth-of-type(1),&:nth-of-type(2){
+        background-color: #30AA66;
+      }
+      &:nth-of-type(3),&:nth-of-type(4),&:nth-of-type(5){
+        background-color: #30AA66;
+      }
+    }
+  }
+}
+
+/**
+ * Diversification
+ */
+.acca-diversification{
+  .text{
+    @include marginPadding(.1rem 0 .15rem 0, 0 .2rem);
+    @include fontColor(.22rem,#3698C6);
+    line-height: .35rem;
+  }
+}
+
+/**
+ * Down
+ */
+.acca-down{
+
+  .down-all-btn{
+    margin: .2rem .4rem;
+    line-height: 0;
+    a{
+      display: inline-block;
+      @include marginPadding(0 .3rem .3rem 0, 0 0);
+      @include widthHeight(2.5rem,.8rem);
+      @include fontColor(.28rem,#fff);
+      border-radius: .06rem;
+      text-align: center; line-height: .8rem;
+      &:nth-of-type(1){
+        background-color: #3698c6;
+      }
+      &:nth-of-type(2){
+        background-color: #30AA66;
+      }
+      &:nth-of-type(3){
+        background-color: #CB9719;
+      }
+      &:nth-of-type(4){
+        background-color: #C64736;
+      }
+      &:nth-of-type(2n){
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+
+.page-wrap{
+  padding-bottom: .8rem;
+}

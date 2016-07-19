@@ -128,25 +128,25 @@ section,div,a,span,i{
           @include backPic("acca_index_icon21.png",.30rem,.36rem,center,center,#3698c6);
         }
         &:nth-of-type(2):after{
-          @include backPic("acca_index_icon22.png",.33rem,.32rem,center,center,#3698c6);
-        }
-        &:nth-of-type(3):after{
-          @include backPic("acca_index_icon23.png",.29rem,.37rem,center,center,#3698c6);
-        }
-        &:nth-of-type(4):after{
-          @include backPic("acca_index_icon24.png",.33rem,.32rem,center,center,#3698c6);
-        }
-        &:nth-of-type(5):after{
           @include backPic("acca_index_icon25.png",.34rem,.32rem,center,center,#3698c6);
         }
+        &:nth-of-type(3):after{
+          @include backPic("acca_index_icon29.png",.37rem,.37rem,center,center,#3698c6);
+        }
+        &:nth-of-type(4):after{
+          @include backPic("acca_index_icon30.png",.26rem,.38rem,center,center,#3698c6);
+        }
+        &:nth-of-type(5):after{
+          @include backPic("acca_index_icon31.png",.28rem,.37rem,center,center,#3698c6);
+        }
         &:nth-of-type(6):after{
-          @include backPic("acca_index_icon26.png",.33rem,.30rem,center,center,#3698c6);
+          @include backPic("acca_index_icon22.png",.33rem,.32rem,center,center,#3698c6);
         }
         &:nth-of-type(7):after{
-          @include backPic("acca_index_icon27.png",.37rem,.33rem,center,center,#3698c6);
+          @include backPic("acca_index_icon32.png",.41rem,.41rem,center,center,#3698c6);
         }
         &:nth-of-type(8):after{
-          @include backPic("acca_index_icon28.png",.38rem,.33rem,center,center,#3698c6);
+          @include backPic("acca_index_icon33.png",.32rem,.38rem,center,center,#3698c6);
         }
        a{
          display: block;
@@ -161,31 +161,15 @@ section,div,a,span,i{
   border-top: 1px solid #ededed;
   height: 3.2rem;
   span{
-    font-size: .26rem;
+    font-size: .24rem;
     position: absolute;
+    width: 1.2rem;
+    left: 1.6rem; right: 0;
     top: .6rem; right: .5rem;
+    @include backPic("index_icon_1.jpg",.14rem,.26rem,right,center,rgba(0,0,0,0));
   }
-  i{
-    position: absolute;
-    right: .25rem; top: .68rem;
-    width: .2rem; height: .2rem;
-    transform: rotate(45deg);
-    &:after{
-      display: block;
-      content: '';
-      position: absolute;
-      width: .2rem; height: .04rem;
-      background-color: #85bfe8;
-    }
-    &:before{
-      display: block;
-      content: '';
-      position: absolute;
-      top: .08rem; left: .1rem;
-      width: .2rem; height: .04rem;
-      background-color: #85bfe8;
-      transform: rotate(90deg);
-    }
+  a:nth-of-type(1) span{
+    width: 1.25rem;
   }
   a{
     float: left; position: relative;
@@ -200,7 +184,7 @@ section,div,a,span,i{
       border-radius: 100%;
     }
     &:nth-of-type(1):after{
-       @include backPic("acca_index_icon11.png",1.3rem,1.3rem,center,center,#85bfe8);
+       @include backPic("acca_index_icon16.png",1.3rem,1.3rem,center,center,#85bfe8);
     }
     &:nth-of-type(2):after{
        @include backPic("acca_index_icon12.png",1.28rem,1.28rem,center,center,#45b39c);
@@ -221,26 +205,23 @@ section,div,a,span,i{
     }
     &:nth-of-type(1){
       color: #85bfe8;
-      i:before,i:after{
-        background-color: #85bfe8;
-      }
     }
     &:nth-of-type(2){
       color: #45b39c;
-      i:before,i:after{
-        background-color: #45b39c;
+      span{
+        @include backPic("index_icon_4.jpg",.14rem,.26rem,right,center,rgba(0,0,0,0));
       }
     }
     &:nth-of-type(3){
       color: #cf614c;
-      i:before,i:after{
-        background-color: #cf614c;
+      span{
+        @include backPic("index_icon_2.jpg",.15rem,.26rem,right,center,rgba(0,0,0,0));
       }
     }
     &:nth-of-type(4){
       color: #f7e099;
-      i:before,i:after{
-        background-color: #f7e099;
+      span{
+        @include backPic("index_icon_3.jpg",.15rem,.26rem,right,center,rgba(0,0,0,0));
       }
     }
   }
@@ -306,11 +287,10 @@ section,div,a,span,i{
   .content-list{
 
     float: left;
-    height: auto; width: 100%;
-    background-color: #fff;
-    border-top: 1px solid #e9e9e9;
-    border-bottom: 1px solid #e9e9e9;
-    padding-top: .17rem; margin-bottom: 1rem;
+    @include widthHeight(100%,auto);
+    @include borderTop(#e9e9e9,1px);
+    @include borderBottom(#e9e9e9,1px);
+    padding-top: .17rem;
     a{
       float: left;
       display: block;

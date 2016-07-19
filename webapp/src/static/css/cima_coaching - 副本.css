@@ -1,0 +1,283 @@
+@charset "UTF-8";
+/**
+ * @update:    2016.07.15;
+ */
+/**
+ * 第一栏导航
+ */
+.acca-else-link {
+  margin-top: 0; }
+  .acca-else-link a {
+    line-height: 2.3rem;
+    font-size: .22rem; }
+  .acca-else-link a:nth-of-type(1):before {
+    -webkit-transform: translate3d(-50%, 0.31rem, 0);
+    -moz-transform: translate3d(-50%, 0.31rem, 0);
+    transform: translate3d(-50%, 0.31rem, 0);
+    width: 0.6rem;
+    height: 0.64rem;
+    background: url("../img/cima_public_icon1.png") center center no-repeat transparent;
+    -moz-background-size: 0.56rem 0.5rem;
+    background-size: 0.56rem 0.5rem; }
+  .acca-else-link a:nth-of-type(2):before {
+    -webkit-transform: translate3d(-50%, 0.3rem, 0);
+    -moz-transform: translate3d(-50%, 0.3rem, 0);
+    transform: translate3d(-50%, 0.3rem, 0);
+    width: 0.54rem;
+    height: 0.63rem;
+    background: url("../img/acca_inside_icon2.png") center center no-repeat transparent;
+    -moz-background-size: 0.45rem 0.6rem;
+    background-size: 0.45rem 0.6rem; }
+  .acca-else-link a:nth-of-type(3):before {
+    -webkit-transform: translate3d(-50%, 0.4rem, 0);
+    -moz-transform: translate3d(-50%, 0.4rem, 0);
+    transform: translate3d(-50%, 0.4rem, 0);
+    width: 0.65rem;
+    height: 0.52rem;
+    background: url("../img/acca_inside_icon3.png") center center no-repeat transparent;
+    -moz-background-size: 0.57rem 0.57rem;
+    background-size: 0.57rem 0.57rem; }
+  .acca-else-link a:nth-of-type(4):before {
+    -webkit-transform: translate3d(-50%, 0.3rem, 0);
+    -moz-transform: translate3d(-50%, 0.3rem, 0);
+    transform: translate3d(-50%, 0.3rem, 0);
+    width: 0.6rem;
+    height: 0.64rem;
+    background: url("../img/acca_inside_icon4.png") center center no-repeat transparent;
+    -moz-background-size: 0.6rem 0.54rem;
+    background-size: 0.6rem 0.54rem; }
+
+/**
+ * Acca Authentication
+ */
+.acca-introduce {
+  background-color: #fff;
+  min-height: 3.6rem;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee; }
+  .acca-introduce > h1 {
+    font-size: 0.24rem;
+    color: #333;
+    border-left: 3px solid #4598DC;
+    text-indent: .12rem;
+    -webkit-transform: translate3d(0, 0.2rem, 0);
+    -moz-transform: translate3d(0, 0.2rem, 0);
+    transform: translate3d(0, 0.2rem, 0);
+    margin: 0 0 0 .3rem; }
+
+.acca-authentication ul {
+  border-top: 1px solid #E9E9E9;
+  padding: .2rem .3rem .3rem;
+  margin-top: .45rem; }
+  .acca-authentication ul li {
+    float: left;
+    position: relative;
+    height: .5rem;
+    margin-bottom: .4rem;
+    line-height: .5rem;
+    width: 50%;
+    height: 0.5rem;
+    font-size: 0.24rem;
+    color: #333;
+    text-indent: .6rem; }
+    .acca-authentication ul li span {
+      color: #f00; }
+    .acca-authentication ul li:after {
+      content: '';
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: .5rem;
+      height: .5rem; }
+    .acca-authentication ul li:nth-of-type(1):after {
+      -webkit-transform: translate3d(0, 0, 0);
+      -moz-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+      background: url("../img/acca_public_icon99.png") center center no-repeat transparent;
+      -moz-background-size: 0.44rem 0.44rem;
+      background-size: 0.44rem 0.44rem; }
+    .acca-authentication ul li:nth-of-type(2):after {
+      -webkit-transform: translate3d(0, 0, 0);
+      -moz-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+      background: url("../img/acca_public_icon98.png") center center no-repeat transparent;
+      -moz-background-size: 0.44rem 0.43rem;
+      background-size: 0.44rem 0.43rem; }
+    .acca-authentication ul li:nth-of-type(3):after {
+      -webkit-transform: translate3d(0, 0, 0);
+      -moz-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+      background: url("../img/acca_public_icon97.png") center center no-repeat transparent;
+      -moz-background-size: 0.39rem 0.45rem;
+      background-size: 0.39rem 0.45rem; }
+    .acca-authentication ul li:nth-of-type(4):after {
+      -webkit-transform: translate3d(0, 0, 0);
+      -moz-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+      background: url("../img/acca_public_icon96.png") center center no-repeat transparent;
+      -moz-background-size: 0.43rem 0.46rem;
+      background-size: 0.43rem 0.46rem; }
+    .acca-authentication ul li:nth-of-type(5):after {
+      -webkit-transform: translate3d(0, 0, 0);
+      -moz-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+      background: url("../img/acca_public_icon95.png") center center no-repeat transparent;
+      -moz-background-size: 0.45rem 0.46rem;
+      background-size: 0.45rem 0.46rem; }
+    .acca-authentication ul li:nth-of-type(6):after {
+      -webkit-transform: translate3d(0, -0.05rem, 0);
+      -moz-transform: translate3d(0, -0.05rem, 0);
+      transform: translate3d(0, -0.05rem, 0);
+      background: url("../img/acca_public_icon94.png") center center no-repeat transparent;
+      -moz-background-size: 0.44rem 0.43rem;
+      background-size: 0.44rem 0.43rem; }
+
+/**
+ * Acca Class
+ */
+.acca-class {
+  margin-top: .2rem; }
+  .acca-class .item {
+    margin-top: .38rem;
+    padding: 0 .1rem .3rem;
+    border-top: 1px solid #E9E9E9; }
+    .acca-class .item a {
+      margin: 0.2rem 0 0 0;
+      padding: 0.9rem 0.35rem 0.35rem;
+      width: 6.2rem;
+      height: 3rem;
+      display: block;
+      background-color: #f60;
+      -moz-border-radius: .1rem;
+      border-radius: .1rem;
+      text-align: center; }
+      .acca-class .item a h1 {
+        font-size: 0.36rem;
+        color: #fff;
+        font-weight: bold;
+        margin-bottom: .25rem; }
+      .acca-class .item a p {
+        font-size: 0.2rem;
+        color: #fff;
+        line-height: .3rem; }
+      .acca-class .item a:nth-of-type(1) {
+        background: url("../img/cfa_coaching_banner1.png") center center no-repeat transparent;
+        -moz-background-size: 6.2rem 3rem;
+        background-size: 6.2rem 3rem; }
+      .acca-class .item a:nth-of-type(2) {
+        background: url("../img/cfa_coaching_banner2.png") center center no-repeat transparent;
+        -moz-background-size: 6.2rem 3rem;
+        background-size: 6.2rem 3rem; }
+      .acca-class .item a:nth-of-type(3) {
+        background: url("../img/cfa_coaching_banner3.png") center center no-repeat transparent;
+        -moz-background-size: 6.2rem 3.01rem;
+        background-size: 6.2rem 3.01rem; }
+
+/**
+ * Acca Teacher
+ */
+.acca-teacher {
+  margin-top: .2rem;
+  height: 4.6rem; }
+  .acca-teacher h1 {
+    margin-bottom: .4rem; }
+  .acca-teacher p {
+    padding: .2rem;
+    line-height: .3rem;
+    font-size: 0.22rem;
+    color: #787878;
+    border-top: 1px solid #E9E9E9; }
+  .acca-teacher ul {
+    margin: 0;
+    padding: 0 0.2rem;
+    width: 6.4rem;
+    height: 2.6rem;
+    background: url("../img/acca_coaching_banner7.png") center bottom no-repeat transparent;
+    -moz-background-size: 5.99rem 2.39rem;
+    background-size: 5.99rem 2.39rem; }
+    .acca-teacher ul li {
+      margin: 0.2rem 0.12rem 0 0;
+      padding: 0;
+      float: left;
+      visibility: hidden;
+      width: 1.1rem;
+      height: 1.1rem;
+      -moz-border-radius: 100%;
+      border-radius: 100%;
+      overflow: hidden;
+      background-color: #f00; }
+      .acca-teacher ul li:nth-of-type(5n) {
+        margin-right: 0; }
+
+/**
+ * Training Ttudents
+ */
+.acca-training-students {
+  position: relative;
+  height: 4.55rem; }
+  .acca-training-students .target-img {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 2.9rem;
+    background: url("../img/acca_coaching_banner6.png") center center no-repeat transparent;
+    -moz-background-size: 6.4rem 2.9rem;
+    background-size: 6.4rem 2.9rem; }
+
+/**
+ * Branch Phone
+ */
+.branch-phone {
+  height: auto; }
+  .branch-phone section {
+    border-top: 1px solid #E9E9E9;
+    padding-top: .3rem; }
+  .branch-phone div {
+    position: relative;
+    width: 50%;
+    float: left;
+    margin: 0 0 0.4rem 0;
+    padding: 0 0 0 0.6rem; }
+    .branch-phone div > span, .branch-phone div a {
+      font-size: 0.22rem;
+      color: #333;
+      display: block; }
+      .branch-phone div > span:after, .branch-phone div a:after {
+        content: '';
+        display: block;
+        width: 0.25rem;
+        height: 0.27rem;
+        position: absolute;
+        left: .3rem;
+        top: 0;
+        background: url("../img/acca_public_icon92.png") center center no-repeat transparent;
+        -moz-background-size: 0.2rem 0.27rem;
+        background-size: 0.2rem 0.27rem; }
+    .branch-phone div > a {
+      margin-top: .15rem; }
+      .branch-phone div > a:after {
+        top: .4rem;
+        background: url("../img/acca_public_icon93.png") center center no-repeat transparent;
+        -moz-background-size: 0.19rem 0.27rem;
+        background-size: 0.19rem 0.27rem; }
+  .branch-phone > .all-branch {
+    display: inline-block;
+    margin-left: 50%;
+    -webkit-transform: translate3d(-1.2rem, -0.35rem, 0);
+    -moz-transform: translate3d(-1.2rem, -0.35rem, 0);
+    transform: translate3d(-1.2rem, -0.35rem, 0);
+    width: 2.4rem;
+    height: 0.8rem;
+    font-size: 0.24rem;
+    color: #fff;
+    background-color: #3698c6;
+    -moz-border-radius: .06rem;
+    border-radius: .06rem;
+    text-align: center;
+    line-height: .8rem; }
+
+.page-wrap {
+  padding-bottom: .8rem; }

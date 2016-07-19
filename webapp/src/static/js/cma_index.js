@@ -10,9 +10,6 @@
   var screenHeight = oHtml.clientHeight;
   var oBody = doc.querySelectorAll('body')[0];
   var load = document.querySelector('#load');
-  var imagesArr = [
-    '../../static/img/phone-icon.png'
-  ];
 
 
   function init() {
@@ -35,18 +32,14 @@
       obj: '#slideBanner'
     });
 
-    // 显示拨号功能
-    doc.querySelector('#callPhone').classList.remove('hide');
 
   }
 
   function styleInit() {
 
-    webApi.loadImages(imagesArr, function() {
-      setTimeout(function() {
-        load.classList.add('hide');
-      }, 300);
-    });
+    setTimeout(function() {
+      load.classList.add('hide');
+    }, 300);
   }
 
   function bindEvents() {
@@ -67,7 +60,7 @@
       }
     });
 
-    // acca课程
+
     webApi.bind(showNextDetails[1], 'click', function() {
 
       var parentEle = this.parentNode;

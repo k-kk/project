@@ -123,25 +123,6 @@ div,section,a,ul,li,div{
 
 }
 
-.fixed-nav{
-   position: fixed;
-   z-index:6;
-   left: 0; right: 0; top: 0;
-   height: .6rem;
-   background-color: rgba(255,255,255,.8);
-   a{
-      color: #333; font-size: .2rem;
-      display: block;
-      float: left;
-      width: 20%; height: inherit;
-      text-align: center;
-      line-height: .6rem;
-      &.active{
-        color: #3698C6;
-      }
-   }
-}
-
 .acca-guide-active{
   height: 0;
   overflow: hidden;

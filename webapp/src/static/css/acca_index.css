@@ -2,9 +2,6 @@
 /**
  * @update:    2016.07.05;
  */
-.page-wrap {
-  padding-bottom: .3rem; }
-
 /**
  * reset
  */
@@ -182,7 +179,7 @@ section, div, a, span, i {
         background-size: 0.38rem 0.33rem; }
       .acca-policy ul li a {
         display: block;
-        font-size: .18rem;
+        font-size: 0.18rem;
         color: #666;
         height: 1.15rem; }
 
@@ -191,43 +188,23 @@ section, div, a, span, i {
   border-top: 1px solid #ededed;
   height: 3.2rem; }
   .acca-type span {
-    font-size: .26rem;
+    font-size: .24rem;
     position: absolute;
+    width: 1.2rem;
+    left: 1.6rem;
+    right: 0;
     top: .6rem;
-    right: .5rem; }
-  .acca-type i {
-    position: absolute;
-    right: .25rem;
-    top: .68rem;
-    width: .2rem;
-    height: .2rem;
-    -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    transform: rotate(45deg); }
-    .acca-type i:after {
-      display: block;
-      content: '';
-      position: absolute;
-      width: .2rem;
-      height: .04rem;
-      background-color: #85bfe8; }
-    .acca-type i:before {
-      display: block;
-      content: '';
-      position: absolute;
-      top: .08rem;
-      left: .1rem;
-      width: .2rem;
-      height: .04rem;
-      background-color: #85bfe8;
-      -webkit-transform: rotate(90deg);
-      -moz-transform: rotate(90deg);
-      transform: rotate(90deg); }
+    right: .5rem;
+    background: url("../img/index_icon_1.jpg") right center no-repeat transparent;
+    -moz-background-size: 0.14rem 0.26rem;
+    background-size: 0.14rem 0.26rem; }
+  .acca-type a:nth-of-type(1) span {
+    width: 1.4rem; }
   .acca-type a {
     float: left;
     position: relative;
-    height: 1.6rem;
     width: 50%;
+    height: 1.6rem;
     border-bottom: 1px solid #ededed; }
     .acca-type a:after {
       content: '';
@@ -266,26 +243,29 @@ section, div, a, span, i {
       background-color: #BEBEBE; }
     .acca-type a:nth-of-type(1) {
       color: #85bfe8; }
-      .acca-type a:nth-of-type(1) i:before, .acca-type a:nth-of-type(1) i:after {
-        background-color: #85bfe8; }
     .acca-type a:nth-of-type(2) {
       color: #45b39c; }
-      .acca-type a:nth-of-type(2) i:before, .acca-type a:nth-of-type(2) i:after {
-        background-color: #45b39c; }
+      .acca-type a:nth-of-type(2) span {
+        background: url("../img/index_icon_4.jpg") right center no-repeat transparent;
+        -moz-background-size: 0.14rem 0.26rem;
+        background-size: 0.14rem 0.26rem; }
     .acca-type a:nth-of-type(3) {
       color: #cf614c; }
-      .acca-type a:nth-of-type(3) i:before, .acca-type a:nth-of-type(3) i:after {
-        background-color: #cf614c; }
+      .acca-type a:nth-of-type(3) span {
+        background: url("../img/index_icon_2.jpg") right center no-repeat transparent;
+        -moz-background-size: 0.15rem 0.26rem;
+        background-size: 0.15rem 0.26rem; }
     .acca-type a:nth-of-type(4) {
       color: #f7e099; }
-      .acca-type a:nth-of-type(4) i:before, .acca-type a:nth-of-type(4) i:after {
-        background-color: #f7e099; }
+      .acca-type a:nth-of-type(4) span {
+        background: url("../img/index_icon_3.jpg") right center no-repeat transparent;
+        -moz-background-size: 0.15rem 0.26rem;
+        background-size: 0.15rem 0.26rem; }
 
 /**
  * ACCA课程
  */
 .acca-course {
-  margin-bottom: .8rem;
   -webkit-transition: .3s;
   -moz-transition: .3s;
   transition: .3s; }
@@ -330,9 +310,9 @@ section, div, a, span, i {
       background-color: #bc93b3; }
   .acca-course .content-list {
     float: left;
-    height: auto;
-    width: 100%;
     background-color: #fff;
+    width: 100%;
+    height: auto;
     border-top: 1px solid #e9e9e9;
     border-bottom: 1px solid #e9e9e9;
     padding-top: .17rem; }

@@ -7,10 +7,14 @@
   var orientationEvent = supportsOrientationChange ? "orientationchange" : "resize";
   var browerType = navigator.userAgent.toLowerCase();
   var isWeixin = true;
+  var doc = window.document;
   var allNav = document.querySelector('#allNav');
   var oBody = document.querySelectorAll('body')[0];
   var dotHtml = document.documentElement;
-  var deviceStr;
+  var objEv = document.querySelector('#targetNav');
+  var objEvA = document.querySelectorAll('#targetNav a');
+  var fixedNav = document.querySelector('#fixedNav');
+  var deviceStr, i, len;
 
   var settins = {
     across: function() { // 横屏提示样式
@@ -56,9 +60,26 @@
     settins.callPhone();
   }
 
-  // 通用样式初始
+
   function styleInit() {
+
+    try{
+      var _num = objEv.dataset.num;
+    }catch(e){
+      console.error(e);
+    }
+
+
+    // 导航侧边栏
     webApi.transformStr(allNav, 'translate3d(4.1rem,0,0)');
+
+    // 导航
+    if (_num) {
+      for (i = 0; i < objEv.children.length; i++) {
+        fixedNav.children[i].style.width = (100 / _num) + '%';
+      }
+    }
+
   }
 
   // 通用事件
@@ -69,6 +90,21 @@
     var forbidOn = document.querySelector('#forbidOn');
     var rightNavOff = false;
 
+    // 浮窗导航
+    try {
+
+      webApi.bind(doc, 'scroll', function(ev) {
+
+        var classNameStr = 'fixed-nav hide';
+
+        oBody.scrollTop >= (objEv.offsetTop + objEv.offsetHeight) ? classNameStr = 'fixed-nav' : classNameStr = 'fixed-nav hide';
+        fixedNav.className = classNameStr;
+
+      });
+
+    } catch (e) {
+      console.log(e);
+    }
     // 导航
     webApi.bind(openNav, 'click', function(e) {
 
@@ -89,18 +125,18 @@
 
     function openNavFn() {
       oBody.style.position = 'fixed';
-      webApi.transitionDelay(allNav, '0s');
+      // webApi.transitionDelay(allNav, '0s');
       webApi.transformStr(allNav, 'translate3d(0,0,0)');
       webApi.transitionStr(pageWrap, '.3s');
-      webApi.transitionDelay(pageWrap, '200ms');
+      // webApi.transitionDelay(pageWrap, '200ms');
       webApi.transformStr(pageWrap, 'translate3d(' + -4.1 + 'rem,0,0)');
       forbidOn.classList.add('show');
     }
 
     function closeNavFn() {
       oBody.style.position = 'static';
-      webApi.transitionDelay(pageWrap, '0s');
-      webApi.transitionDelay(allNav, '200ms');
+      // webApi.transitionDelay(pageWrap, '0s');
+      // webApi.transitionDelay(allNav, '200ms');
       webApi.transformStr(pageWrap, 'translate3d(0,0,0)');
       webApi.transformStr(allNav, 'translate3d(4.1rem,0,0)');
       forbidOn.classList.remove('show');

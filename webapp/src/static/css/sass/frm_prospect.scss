@@ -1,0 +1,194 @@
+@charset "utf-8";
+
+/**
+ * @update:    2016.07.15;
+ */
+
+@import "comm";
+
+/**
+ * 第一栏导航
+ */
+.acca-else-link{
+  margin-top: 0;
+  a{
+    line-height: 2.3rem; font-size: .22rem;
+  }
+  a:nth-of-type(1):before{
+    transform: translate3d(-50%,.31rem,0);
+    @include widthHeight(.6rem,.64rem);
+    @include backPic("acca_inside_icon1.png",.56rem,.51rem,center,center,rgba(0,0,0,0));
+  }
+  a:nth-of-type(2):before{
+    transform: translate3d(-50%,.3rem,0);
+    @include widthHeight(.54rem,.63rem);
+    @include backPic("acca_inside_icon2.png",.45rem,.6rem,center,center,rgba(0,0,0,0));
+  }
+  a:nth-of-type(3):before{
+    transform: translate3d(-50%,.4rem,0);
+    @include widthHeight(.65rem,.52rem);
+    @include backPic("acca_inside_icon3.png",.57rem,.57rem,center,center,rgba(0,0,0,0));
+  }
+  a:nth-of-type(4):before{
+    transform: translate3d(-50%,.3rem,0);
+    @include widthHeight(.6rem,.64rem);
+    @include backPic("acca_inside_icon4.png",.6rem,.54rem,center,center,rgba(0,0,0,0));
+  }
+}
+
+/**
+ * Else Css
+ */
+.acca-introduce{
+
+  background-color: #fff;
+  @include borderTop(#E9E9E9,1px);
+  @include borderBottom(#E9E9E9,1px);
+
+  > h1{
+    @include fontColor(.24rem,#333);
+    @include borderLeft(#4598DC,3px);
+    text-indent: .12rem;
+    transform: translate3d(0,.2rem,0);
+    margin: 0 0 0 .3rem;
+  }
+
+}
+
+
+.acca-teacher{
+
+  position: relative;
+  height: auto;
+  margin-top: .2rem;
+
+  h1{
+    margin-bottom: .4rem;
+  }
+  h3{
+    @include fontColor(.24rem,#03A9F4);
+    text-align: center;
+    margin-bottom: .05rem;
+    margin-top: .06rem;
+    &:nth-of-type(1){
+      margin-top: -.35rem;
+    }
+  }
+  p{
+    padding: .2rem;
+    line-height: .3rem;
+    @include fontColor(.22rem,#787878);
+    @include borderTop(#E9E9E9,1px);
+    @include borderBottom(#E9E9E9,1px);
+  }
+
+  ul{
+
+    padding: .2rem;
+
+    li{
+
+      position: relative;
+      @include fontColor(.24rem,#4895c9);
+      @include widthHeight(100%,.7rem);
+      line-height: .7rem; text-indent: .9rem;
+      margin-bottom: .2rem;
+
+      &:last-of-type{
+        margin-bottom: 0;
+      }
+      &:after{
+        content: '';
+        display: block;
+        position: absolute;
+        left: 0; top: 0;
+        border-radius: 100%;
+        border: 1px solid #9E9E9E;
+        @include widthHeight(.7rem,.7rem);
+      }
+      &:nth-of-type(1):after{
+        @include backPic("frm_prospect_icon1.png",.43rem,.43rem,center,center,#e9e9e9);
+      }
+      &:nth-of-type(2):after{
+        @include backPic("frm_prospect_icon2.png",.48rem,.42rem,center,center,#e9e9e9);
+      }
+      &:nth-of-type(3):after{
+        @include backPic("frm_prospect_icon3.png",.43rem,.39rem,center,center,#e9e9e9);
+      }
+      &:nth-of-type(4):after{
+        @include backPic("frm_prospect_icon4.png",.42rem,.41rem,center,center,#e9e9e9);
+      }
+      &:nth-of-type(5):after{
+        @include backPic("frm_prospect_icon5.png",.49rem,.3rem,center,center,#e9e9e9);
+      }
+      &:nth-of-type(6):after{
+        @include backPic("frm_prospect_icon6.png",.47rem,.34rem,center,center,#e9e9e9);
+      }
+      &:nth-of-type(7):after{
+        @include backPic("frm_prospect_icon7.png",.43rem,.35rem,center,center,#e9e9e9);
+      }
+
+    }
+
+  }
+
+}
+
+.page-wrap{
+  padding-bottom: .8rem;
+}
+
+/**
+ * CMA Certificate
+ */
+.cma-certificate{
+
+  ul{
+    @include marginPadding(.4rem 0 0,0 .2rem);
+    @include borderTop(#E9E9E9,1px);
+    li{
+
+      position: relative;
+      text-indent: .89rem;
+      height: .7rem;
+      @include marginPadding(.3rem 0 0,0);
+
+      hgroup{
+        padding-top: .05rem;
+      }
+      h1{
+        @include fontColor(.24rem,#333);
+        @include marginPadding(0 0 .05rem,0);
+      }
+      h2{
+        @include fontColor(.2rem,#666);
+      }
+      &:last-of-type{
+        margin-bottom: .4rem;
+      }
+      &:after{
+        content: '';
+        display: block;
+        position: absolute;
+        left: 0; top:0;
+        @include widthHeight(.7rem,.7rem);
+        border-radius: .15rem;
+      }
+
+      &:nth-of-type(1):after{
+        @include backPic("cma_prospect_icon2.png",.4rem,.56rem,center,center,#F1F1F1);
+      }
+      &:nth-of-type(2):after{
+        @include backPic("cma_prospect_icon3.png",.53rem,.44rem,center,center,#F1F1F1);
+      }
+      &:nth-of-type(3):after{
+        @include backPic("cma_prospect_icon4.png",.45rem,.48rem,center,center,#F1F1F1);
+      }
+      &:nth-of-type(4):after{
+        @include backPic("cma_prospect_icon5.png",.34rem,.51rem,center,center,#F1F1F1);
+      }
+
+    }
+  }
+
+}

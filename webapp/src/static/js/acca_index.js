@@ -11,7 +11,11 @@
   var oBody = doc.querySelectorAll('body')[0];
   var load = document.querySelector('#load');
   var imagesArr = [
-    '../../static/img/phone-icon.png'
+    '../../static/img/phone-icon.png',
+    '../../static/img/acca_index_icon11.png',
+    '../../static/img/acca_index_icon12.png',
+    '../../static/img/acca_index_icon13.png',
+    '../../static/img/acca_index_icon14.png'
   ];
 
 
@@ -34,9 +38,6 @@
       playTime: 5000,
       obj: '#slideBanner'
     });
-
-    // 显示拨号功能
-    doc.querySelector('#callPhone').classList.remove('hide');
 
   }
 
@@ -81,6 +82,7 @@
       }
 
     });
+
 
   }
 

@@ -15,24 +15,24 @@
     line-height: 2.3rem; font-size: .22rem;
   }
   a:nth-of-type(1):before{
-    width: .63rem; height: .58rem;
-    transform: translate3d(-50%,.29rem,0);
-    @include backPic("acca_banner_icon11.png",.63rem,.58rem,center,center,rgba(0,0,0,1));
+    transform: translate3d(-50%,.32rem,0);
+    @include widthHeight(.6rem,.64rem);
+    @include backPic("acca_public_icon1.png",.58rem,.51rem,center,center,rgba(0,0,0,0));
   }
   a:nth-of-type(2):before{
-    width: .54rem; height: .63rem;
-    transform: translate3d(-50%,.22rem,0);
-    @include backPic("acca_banner_icon22.png",.54rem,.63rem,center,center,rgba(0,0,0,1));
+    transform: translate3d(-50%,.39rem,0);
+    @include widthHeight(.58rem,.51rem);
+    @include backPic("acca_inside_icon1.png",.58rem,.51rem,center,center,rgba(0,0,0,0));
   }
   a:nth-of-type(3):before{
-    width: .65rem; height: .52rem;
-    transform: translate3d(-50%,.32rem,0);
-    @include backPic("acca_banner_icon33.png",.65rem,.52rem,center,center,rgba(0,0,0,1));
+    transform: translate3d(-50%,.4rem,0);
+    @include widthHeight(.65rem,.52rem);
+    @include backPic("acca_inside_icon3.png",.57rem,.57rem,center,center,rgba(0,0,0,0));
   }
   a:nth-of-type(4):before{
-    width: .41rem; height: .64rem;
-    transform: translate3d(-50%,.2rem,0);
-    @include backPic("acca_banner_icon44.png",.41rem,.64rem,center,center,rgba(0,0,0,1));
+    transform: translate3d(-50%,.3rem,0);
+    @include widthHeight(.6rem,.64rem);
+    @include backPic("acca_inside_icon4.png",.6rem,.54rem,center,center,rgba(0,0,0,0));
   }
 }
 
@@ -100,6 +100,25 @@
   .pic{
     text-align: center;
     margin-bottom: .1rem;
+  }
+  &:nth-of-type(1){
+    > div.pic{
+      @include widthHeight(100%,1.68rem);
+      @include backPic("acca_online_pic1.png",5.78rem,1.68rem,center,center,rgba(0,0,0,0));
+    }
+  }
+   &:nth-of-type(3){
+    > div.pic{
+      margin-bottom: 0;
+      @include widthHeight(100%,1.18rem);
+      @include backPic("acca_online_pic2.jpg",6.02rem,1.18rem,center,center,rgba(0,0,0,0));
+    }
+  }
+   &:nth-of-type(4){
+    > div.pic{
+      @include widthHeight(100%,1.93rem);
+      @include backPic("acca_online_pic3.jpg",4.64rem,1.93rem,center,center,rgba(0,0,0,0));
+    }
   }
 
 }

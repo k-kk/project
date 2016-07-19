@@ -33,7 +33,6 @@
 
     var guideOn = document.querySelector('#guideOn');
     var accaList = document.querySelector('#accaList');
-    var fixedNav = document.querySelector('#fixedNav');
 
     // 考试指南关闭/打开
     webApi.bind(guideOn, 'click', function() {
@@ -50,19 +49,6 @@
       }
 
     });
-
-    // 浮窗导航
-    webApi.bind(doc, 'scroll', function(ev) {
-
-      var classNameStr = 'fixed-nav hide';
-
-      oBody.scrollTop >= accaList.offsetTop ? classNameStr = 'fixed-nav' : classNameStr = 'fixed-nav hide';
-      fixedNav.className = classNameStr;
-
-    });
-
-    console.log();
-
 
   }
 
