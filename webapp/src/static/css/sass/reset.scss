@@ -819,6 +819,9 @@ body .show{
     background-color: #fff;
     border-radius: 1px;
     margin-bottom: .07rem;
+    &:last-of-type{
+      margin-bottom: 0;
+    }
   }
 
 }

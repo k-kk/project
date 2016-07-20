@@ -703,6 +703,8 @@ body .show {
     -moz-border-radius: 1px;
     border-radius: 1px;
     margin-bottom: .07rem; }
+    .on-nav div:last-of-type {
+      margin-bottom: 0; }
 
 /* Comm Header */
 .else-link {
