@@ -39,5 +39,8 @@
         background-position: 0 -.52rem; }
       .breanch-list section a:nth-of-type(3):after {
         background-position: 0 -1.02rem; }
-      .breanch-list section a:nth-of-type(4):after {
-        background-position: 0 -1.46rem; }
+      .breanch-list section a:nth-of-type(4) {
+        padding-left: .36rem;
+        text-indent: 0; }
+        .breanch-list section a:nth-of-type(4):after {
+          background-position: 0 -1.46rem; }

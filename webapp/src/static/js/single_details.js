@@ -32,8 +32,11 @@
   function bindEvents() {
 
     var showNextDetails = document.querySelectorAll('.show-next-details');
+    var titleFixed = document.querySelector('#titleFixed');
+    var lineFeed = document.querySelector('#lineFeed');
     var i, len;
 
+    // 展开/关闭
     for (i = 0, len = showNextDetails.length; i < len; i++) {
       webApi.bind(showNextDetails[i], 'click', function() {
 
@@ -50,6 +53,23 @@
 
       });
     }
+
+    // 标题悬浮
+    webApi.bind(doc, 'scroll', function(ev) {
+
+      var classNameStr;
+
+      if(oBody.scrollTop >= (header.offsetHeight + titleFixed.offsetHeight)){
+        classNameStr = 'fixed align-center';
+        lineFeed.className = 'hide';
+      }else{
+        classNameStr = '';
+        lineFeed.className = '';
+      }
+
+      titleFixed.className = classNameStr;
+
+    });
 
   }
 

@@ -28,25 +28,6 @@
 
   function bindEvents() {
 
-    var showNextDetails = document.querySelectorAll('.show-next-details');
-    var i, len;
-
-    for (i = 0, len = showNextDetails.length; i < len; i++) {
-      webApi.bind(showNextDetails[i], 'click', function() {
-
-        var parentEle = this.parentNode;
-        var content = parentEle.querySelectorAll('.content')[0];
-        var oI = this.querySelectorAll('i')[0];
-        if (oI.classList.contains('active')) {
-          oI.classList.remove('active');
-          content.classList.remove('consult-contnet-active');
-        } else {
-          oI.classList.add('active');
-          content.classList.add('consult-contnet-active');
-        }
-
-      });
-    }
 
   }
 

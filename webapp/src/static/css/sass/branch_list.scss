@@ -47,8 +47,11 @@
     &:nth-of-type(3):after{
       background-position: 0 -1.02rem;
     }
-    &:nth-of-type(4):after{
-      background-position: 0 -1.46rem;
+    &:nth-of-type(4){
+      padding-left: .36rem; text-indent: 0;
+      &:after{
+        background-position: 0 -1.46rem;
+      }
     }
    }
 

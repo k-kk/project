@@ -28,6 +28,18 @@
 
   function bindEvents() {
 
+    var titleFixed = document.querySelector('#titleFixed');
+    var header = document.querySelector('#header');
+
+    webApi.bind(doc, 'scroll', function(ev) {
+
+      var classNameStr;
+
+      oBody.scrollTop >= (header.offsetHeight + titleFixed.offsetHeight) ? classNameStr = 'fixed' : classNameStr = '';
+      titleFixed.className = classNameStr;
+
+    });
+
   }
 
   window.onload = init;

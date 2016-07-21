@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 /**
- * @update:    2016.07.08;
+ * @update:    2016.07.21;
  */
 
 @import "comm";
@@ -57,7 +57,24 @@
         left: 50%; margin-left: -.325rem;
         width: .65rem; height: .65rem;
         border-radius: 100%;
-        background-color: #3698C6;
+      }
+      &:nth-of-type(1):before{
+        @include backPic("consult_icon1.png",.42rem,.42rem,center,center,#3698C6);
+      }
+      &:nth-of-type(2):before{
+        @include backPic("consult_icon2.png",.36rem,.36rem,center,center,#3698C6);
+      }
+      &:nth-of-type(3):before{
+        @include backPic("consult_icon3.png",.37rem,.41rem,center,center,#3698C6);
+      }
+      &:nth-of-type(4):before{
+        @include backPic("consult_icon4.png",.42rem,.42rem,center,center,#3698C6);
+      }
+      &:nth-of-type(5):before{
+        @include backPic("consult_icon5.png",.33rem,.33rem,center,center,#3698C6);
+      }
+      &:nth-of-type(6):before{
+        @include backPic("consult_icon6.png",.23rem,.35rem,center,center,#3698C6);
       }
     }
 
@@ -96,5 +113,8 @@
 
 .consult-contnet-active{
   height: 0;
+}
+.fixed-nav > a{
+  width: 16.666%;
 }
 

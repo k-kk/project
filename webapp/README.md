@@ -44,6 +44,7 @@
                 ├── online.html                   # FRM在线课程
                 ├── coaching.html                 # FRM面授课程
            ├── exam_guide.html                                 # 考试指南页
+           ├── branch_list.html                                # 分部列表页
            ├── single_details.html                             # 单科详情页
            ├── u_details.html                                  # U+详情页
            ├── consult_list.html                               # 咨询列表页

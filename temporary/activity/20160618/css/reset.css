@@ -1,0 +1,101 @@
+@charset "UTF-8";
+/**
+ * @update:    2016.06.14;
+ * anthor: zhangjie
+ */
+/* reset Style */
+body {
+  background-color: #fff;
+  font-family: "Microsoft Yahei" ,"Helvetica Neue", "Hiragino Sans GB", "Segoe UI", "Microsoft Yahei", "微软雅黑", Tahoma, Arial, STHeiti, sans-serif; }
+
+html, body {
+  min-width: 1200px; }
+
+/* reset Default*/
+body,
+dl,
+dd,
+ul,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+legend,
+input,
+textarea,
+optgroup,
+p,
+blockquote,
+figure,
+hr,
+menu,
+dir,
+thead,
+tbody,
+tfoot,
+th,
+td {
+  margin: 0;
+  padding: 0; }
+
+ul,
+ol {
+  list-style-type: none;
+  list-style-image: none; }
+
+a {
+  text-decoration: none;
+  outline: 0; }
+
+a:focus,
+a:active,
+a:hover {
+  outline: 0 none; }
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block; }
+
+input {
+  font-size: 14px;
+  outline: none; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal; }
+
+/* comm style */
+.cf {
+  *zoom: 1; }
+  .cf:before, .cf:after {
+    content: '';
+    display: table; }
+  .cf:after {
+    clear: both; }
+
+.fl {
+  float: left; }
+
+.fr {
+  float: right; }
+
+.visibility {
+  visibility: hidden; }
+
+img {
+  vertical-align: top; }
