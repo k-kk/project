@@ -7,7 +7,7 @@
 .breanch-list {
   background-color: #fff; }
   .breanch-list section {
-    height: 2.6rem;
+    min-height: 2.6rem;
     margin: 0;
     padding: 0.3rem 0.2rem;
     border-bottom: 1px solid #E9E9E9; }

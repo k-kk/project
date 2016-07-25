@@ -32,15 +32,6 @@
 
   function pageInit() {
 
-    var a1 = new Slide;
-
-    // 轮播图
-    a1.init({
-      autoPlay: true,
-      playTime: 5000,
-      obj: '#slideBanner'
-    });
-
   }
 
   function bindEvents() {

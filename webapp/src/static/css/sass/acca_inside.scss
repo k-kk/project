@@ -71,6 +71,7 @@
   section.introduce{
      @include marginPadding(0,.4rem .25rem .2rem);
     h2{
+      margin-bottom: .1rem;
       @include fontColor(.25rem,#4598DC);
       text-align: center;
     }

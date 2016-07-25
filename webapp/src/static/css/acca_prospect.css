@@ -5,6 +5,9 @@
 /**
  * 第一栏导航
  */
+.else-link {
+  margin-top: 0; }
+
 .acca-else-link a {
   line-height: 2.3rem;
   font-size: .22rem; }

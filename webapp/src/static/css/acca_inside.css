@@ -82,6 +82,7 @@
     margin: 0;
     padding: 0.4rem 0.25rem 0.2rem; }
     .acca-introduce section.introduce h2 {
+      margin-bottom: .1rem;
       font-size: 0.25rem;
       color: #4598DC;
       text-align: center; }
