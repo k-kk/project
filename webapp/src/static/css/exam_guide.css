@@ -41,7 +41,7 @@ div, section, a, ul, li, div {
       -moz-transform: translate3d(1.15rem, 0, 0) rotate(-90deg);
       transform: translate3d(1.15rem, 0, 0) rotate(-90deg); }
   .acca-guide > a h1 {
-    font-size: .24rem;
+    font-size: .26rem;
     color: #333; }
 
 .acca-guide .content {

@@ -32,18 +32,19 @@ div,section,a,ul,li,div{
   }
   ul{
     text-align: center; width: 100%;
-    margin: .2rem 0 0 1.1rem;
+    margin: .2rem 0 0 1.3rem;
     li{
       float: left; position: relative;
       &:nth-of-type(1){
-        font-size: .18rem; color: #A8ABB0;
+        font-size: .2rem; color: #A8ABB0;
+        transform: translate3d(0,.06rem,0);
       }
       &:nth-of-type(2){
-        font-size: .25rem; color: #AA192E;
+        font-size: .36rem; color: #AA192E;
         transform: translate3d(0,-.05rem,0);
       }
       &:nth-of-type(3){
-        font-size: .18rem; color: #AA192E;
+        font-size: .28rem; color: #AA192E;
         margin-right: .3rem; padding: 0.1rem;
         transform: translate3d(0,-.1rem,0);
         &:before{
@@ -52,15 +53,16 @@ div,section,a,ul,li,div{
           position: absolute;
           left:0; right: 0; top: 50%;
           margin-top: -.02rem;
-          background-color: #868684; height: 2px;
+          background-color: #868684; height: 1px;
 
         }
       }
       &:nth-of-type(4){
-        width: .7rem; height: .28rem;
-        text-align: center; line-height: .28rem;
+        width: .7rem;
+        text-align: center;
+        padding: .04rem 0;
         transform: translate3d(0,-.05rem,0);
-        font-size: .14rem; color: #fff;
+        font-size: .2rem; color: #fff;
         background-color: #FEAC3E;
       }
     }
@@ -179,7 +181,7 @@ div,section,a,ul,li,div{
     ul{
       li{
         float: left;
-        width: 2.9rem; height: 1.5rem;
+        width: 2.9rem; min-height: 1.5rem;
         margin: .2rem 0 0 .2rem;
         background-color: #f2f2f2;
         padding: .2rem; line-height: 1;
@@ -187,18 +189,21 @@ div,section,a,ul,li,div{
           display: block;
         }
         h1{
-          font-size: .18rem; color: #666;
+          font-size: .22rem; color: #666;
           margin-bottom: .08rem;
         }
         h2{
-         font-size: .12rem; color: #666;
+         font-size: .18rem; color: #666;
          margin-bottom: .13rem;
         }
         div{
-          font-size: .16rem; color: #666;
+          font-size: .18rem; color: #666;
           margin-bottom: .06rem;
           span{
             color: #3B76B3; margin-left: .1rem;
+          }
+          &:last-of-type{
+            margin-bottom: 0;
           }
         }
       }

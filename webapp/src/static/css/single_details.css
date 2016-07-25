@@ -9,7 +9,7 @@ div, section, a, ul, li, div {
   box-sizing: border-box; }
 
 .page-wrap {
-  padding-bottom: 1.1rem; }
+  padding-bottom: 1rem; }
 
 /**
  * Video Wrap
@@ -109,7 +109,16 @@ div, section, a, ul, li, div {
       background-color: #F2F2F2;
       line-height: 1.1; }
       .cma-part .content ul li:last-of-type {
-        padding-top: .2rem; }
+        display: -webkit-box;
+        display: -moz-box;
+        display: flex;
+        -webkit-box-pack: center;
+        -moz-box-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -moz-box-align: center;
+        align-items: center;
+        padding-top: 0rem; }
       .cma-part .content ul li h1 {
         font-size: .22rem;
         color: #666; }
@@ -121,7 +130,7 @@ div, section, a, ul, li, div {
           color: #666; }
       .cma-part .content ul li aside {
         width: 2.25rem;
-        margin: 0 auto;
+        margin: .04rem auto 0;
         font-size: .14rem;
         color: #666; }
   .cma-part .content p {
@@ -227,10 +236,10 @@ div, section, a, ul, li, div {
         -webkit-transform: translate3d(0, 0.4rem, 0);
         -moz-transform: translate3d(0, 0.4rem, 0);
         transform: translate3d(0, 0.4rem, 0);
-        font-size: .22rem;
+        font-size: .3rem;
         color: inherit; }
       .teacher-details .content .teacher-info span {
-        font-size: .2rem;
+        font-size: .3rem;
         color: inherit; }
     .teacher-details .content p {
       font-size: .22rem;
@@ -252,5 +261,5 @@ div, section, a, ul, li, div {
     .course-details .content p {
       font-size: .22rem;
       color: #737373;
-      line-height: .35rem;
+      line-height: .4rem;
       margin-top: .35rem; }

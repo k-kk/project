@@ -14,7 +14,7 @@ div,section,a,ul,li,div{
 }
 
 .page-wrap{
-  padding-bottom: 1.1rem;
+  padding-bottom: 1rem;
 }
 
 /**
@@ -108,7 +108,10 @@ div,section,a,ul,li,div{
         background-color: #F2F2F2;
         line-height: 1.1;
         &:last-of-type{
-          padding-top: .2rem;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding-top: 0rem;
         }
         h1{
           font-size: .22rem; color: #666;
@@ -120,7 +123,7 @@ div,section,a,ul,li,div{
           }
         }
         aside{
-          width: 2.25rem; margin: 0 auto;
+          width: 2.25rem; margin: .04rem auto 0;
           font-size: .14rem; color: #666;
         }
       }
@@ -220,10 +223,10 @@ div,section,a,ul,li,div{
       }
       figcaption{
         transform: translate3d(0,.4rem,0);
-        font-size: .22rem; color: inherit;
+        font-size: .3rem; color: inherit;
       }
       span{
-        font-size: .2rem; color: inherit;
+        font-size: .3rem; color: inherit;
       }
     }
     p{
@@ -249,7 +252,7 @@ div,section,a,ul,li,div{
     }
     p{
       font-size: .22rem; color: #737373;
-      line-height: .35rem;
+      line-height: .4rem;
       margin-top: .35rem;
     }
   }
