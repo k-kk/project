@@ -702,7 +702,7 @@ body .fixed, .article-one section:nth-of-type(1) h1.fixed, .u-top-pic h1.fixed,
     position: absolute;
     left: .3rem;
     top: .18rem;
-    width: .27rem;
+    width: .37rem;
     height: .44rem;
     background: url("../img/phone-icon.png") no-repeat center center;
     -moz-background-size: .27rem .44rem;
@@ -711,8 +711,14 @@ body .fixed, .article-one section:nth-of-type(1) h1.fixed, .u-top-pic h1.fixed,
 .on-nav {
   position: absolute;
   right: .31rem;
-  top: .29rem; }
+  top: .25rem;
+  width: 0.42rem;
+  height: 0.3rem;
+  background: url("../img/banner_nav.png") center center no-repeat transparent;
+  -moz-background-size: 0.38rem 0.3rem;
+  background-size: 0.38rem 0.3rem; }
   .on-nav div {
+    display: none;
     width: .35rem;
     height: .03rem;
     background-color: #fff;

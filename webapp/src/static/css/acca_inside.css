@@ -89,7 +89,7 @@
     .acca-introduce section.introduce p {
       font-size: 0.24rem;
       color: #727272;
-      line-height: .35rem; }
+      line-height: .4rem; }
   .acca-introduce:nth-of-type(2) {
     margin-top: .1rem; }
   .acca-introduce:nth-of-type(3) {
@@ -99,7 +99,7 @@
  * Acca Introduce
  */
 .acca-england {
-  height: 18.7rem; }
+  height: 19.7rem; }
   .acca-england section {
     position: relative;
     float: right;
@@ -151,7 +151,7 @@
         margin: 0 .3rem .2rem 0;
         padding: .2rem;
         width: 2.8rem;
-        height: 1.2rem;
+        height: 1.3rem;
         background-color: #EAEAEA; }
         .acca-england section ul li:nth-of-type(2n) {
           margin-right: 0; }
@@ -167,8 +167,8 @@
     top: .2rem;
     width: 1.6rem; }
   .acca-england .england-li h3 {
-    font-size: 0.24rem;
-    color: #666; }
+    font-size: 0.22rem;
+    color: #4985AD; }
   .acca-england .england-li h4 {
     font-size: 0.16rem;
     color: #666; }

@@ -98,12 +98,12 @@
         @include widthHeight(1.6rem,1.2rem);
       }
       h1{
-        @include fontColor(.22rem,#666);
-        @include marginPadding(.05rem 0 .1rem 0,0);
+        @include fontColor(.24rem,#666);
+        @include marginPadding(.05rem 0 .15rem 0,0);
       }
       p{
-        line-height: .4rem;
-        @include fontColor(.2rem,#696969);
+        line-height: .36rem;
+        @include fontColor(.22rem,#696969);
       }
     }
 

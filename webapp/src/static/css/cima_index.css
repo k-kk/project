@@ -12,9 +12,6 @@ section, div, a, span, i {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-.page-wrap {
-  padding-bottom: .3rem; }
-
 /**
  * 第一栏导航
  */
@@ -77,7 +74,7 @@ section, div, a, span, i {
     .acca-policy > span a {
       float: left;
       color: #666;
-      font-size: .2rem; }
+      font-size: .22rem; }
       .acca-policy > span a:nth-of-type(1) {
         margin-right: .12rem; }
       .acca-policy > span a:nth-of-type(2) {
@@ -259,7 +256,7 @@ section, div, a, span, i {
         -moz-background-size: 0.15rem 0.26rem;
         background-size: 0.15rem 0.26rem; }
     .acca-type a:nth-of-type(4) {
-      color: #f7e099; }
+      color: #c39819; }
       .acca-type a:nth-of-type(4) span {
         background: url("../img/index_icon_3.jpg") right center no-repeat transparent;
         -moz-background-size: 0.15rem 0.26rem;
@@ -269,7 +266,6 @@ section, div, a, span, i {
  * ACCA课程
  */
 .acca-course {
-  margin-bottom: .8rem;
   -webkit-transition: .3s;
   -moz-transition: .3s;
   transition: .3s; }
@@ -320,14 +316,13 @@ section, div, a, span, i {
     background-color: #fff;
     border-top: 1px solid #e9e9e9;
     border-bottom: 1px solid #e9e9e9;
-    padding-top: .17rem;
-    margin-bottom: 1rem; }
+    padding-top: .17rem; }
     .acca-course .content-list a {
       float: left;
       display: block;
       background-color: #f2f2f2;
       width: 2.9rem;
-      height: 2.1rem;
+      height: 2.2rem;
       margin: 0 0 .17rem .17rem; }
       .acca-course .content-list a img {
         width: 2.9rem;
@@ -343,7 +338,7 @@ section, div, a, span, i {
         float: left;
         margin-left: .12rem;
         font-size: .22rem;
-        color: #666; }
+        color: #f00; }
         .acca-course .content-list a span:nth-of-type(1) i {
           font-style: normal;
           font-size: .18rem;

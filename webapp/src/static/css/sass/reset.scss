@@ -816,7 +816,7 @@ body .fixed,.article-one section:nth-of-type(1) h1.fixed,.u-top-pic h1.fixed,
   .phone-down{
     position: absolute;
     left: .3rem; top: .18rem;
-    width: .27rem; height: .44rem;
+    width: .37rem; height: .44rem;
     background: url("../img/phone-icon.png") no-repeat center center;
     background-size: .27rem .44rem;
   }
@@ -824,9 +824,12 @@ body .fixed,.article-one section:nth-of-type(1) h1.fixed,.u-top-pic h1.fixed,
 .on-nav{
 
   position: absolute;
-  right: .31rem; top: .29rem;
+  right: .31rem; top: .25rem;
+  @include widthHeight(.42rem,.3rem);
+  @include backPic('banner_nav.png',.38rem,.3rem,center,center,rgba(0,0,0,0));
 
   div{
+    display: none;
     width: .35rem; height: .03rem;
     background-color: #fff;
     border-radius: 1px;

@@ -63,7 +63,7 @@ section,div,a,span,i{
      right: .25rem; top: .32rem;
      a{
        float: left;
-       color: #666; font-size: .2rem;
+       @include fontColor(.22rem,#666);
        &:nth-of-type(1){
         margin-right: .12rem;
        }
@@ -222,7 +222,7 @@ section,div,a,span,i{
       }
     }
     &:nth-of-type(4){
-      color: #f7e099;
+      color: #c39819;
       span{
         @include backPic("index_icon_3.jpg",.15rem,.26rem,right,center,rgba(0,0,0,0));
       }
@@ -300,7 +300,7 @@ section,div,a,span,i{
       float: left;
       display: block;
       background-color: #f2f2f2;
-      width: 2.9rem; height: 2.1rem;
+      width: 2.9rem; height: 2.2rem;
       margin: 0 0 .17rem .17rem;
       img{
         width: 2.9rem; height: 1.43rem;
@@ -318,7 +318,7 @@ section,div,a,span,i{
           margin-right: .05rem;
         }
         float: left; margin-left: .12rem;
-        font-size: .22rem; color: #666;
+        font-size: .22rem; color: #f00;
       }
       span:nth-of-type(2){
         font-size: .18rem; color: #666;
