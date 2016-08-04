@@ -34,6 +34,11 @@ $imgPath: '../img/';
 @mixin borderBottom($color,$lineHeight){
   border-bottom: $lineHeight solid $color;
 }
+
+@mixin borderRight($color,$lineHeight){
+  border-right: $lineHeight solid $color;
+}
+
 @mixin borderLeft($color,$lineHeight){
   border-left: $lineHeight solid $color;
 }

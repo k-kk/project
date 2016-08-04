@@ -1,0 +1,46 @@
+/**
+ * @update:    2016.07.08;
+ */
+/**
+ * breanch-list
+ */
+.breanch-list {
+  background-color: #fff; }
+  .breanch-list section {
+    min-height: 2.6rem;
+    margin: 0;
+    padding: 0.3rem 0.2rem;
+    border-bottom: 1px solid #E9E9E9; }
+    .breanch-list section h1 {
+      font-size: 0.28rem;
+      color: #03A9F4; }
+    .breanch-list section a {
+      position: relative;
+      display: block;
+      font-size: 0.2rem;
+      color: #333;
+      margin-top: .18rem;
+      text-indent: .36rem; }
+      .breanch-list section a:after {
+        content: '';
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: .23rem;
+        height: .3rem;
+        background: url("../img/branch_icon_list.jpg") no-repeat;
+        -moz-background-size: .24rem 1.75rem;
+        background-size: .24rem 1.75rem; }
+      .breanch-list section a:nth-of-type(1):after {
+        top: -.01rem;
+        background-position: 0 -.06rem; }
+      .breanch-list section a:nth-of-type(2):after {
+        background-position: 0 -.52rem; }
+      .breanch-list section a:nth-of-type(3):after {
+        background-position: 0 -1.02rem; }
+      .breanch-list section a:nth-of-type(4) {
+        padding-left: .36rem;
+        text-indent: 0; }
+        .breanch-list section a:nth-of-type(4):after {
+          background-position: 0 -1.46rem; }

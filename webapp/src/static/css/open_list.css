@@ -1,0 +1,24 @@
+/**
+ * @update:    2016.8.04;
+ */
+/**
+ * Open Class
+ */
+.direct-seeding {
+  width: 100%;
+  height: auto;
+  background-color: #fff; }
+  .direct-seeding header.top {
+    margin: 0;
+    padding: 0.3rem 0.35rem;
+    font-size: 0.22rem;
+    color: #333; }
+    .direct-seeding header.top:after {
+      content: '';
+      display: block;
+      position: absolute;
+      width: 2px;
+      left: 0;
+      top: .3rem;
+      bottom: .3rem;
+      background-color: #3698C6; }

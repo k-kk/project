@@ -254,20 +254,20 @@
   }
 
 
-  webApi.bind(window, orientationEvent, function(ev) {
-    window.orientation == 0 ? location.reload() : settins.across();
-  });
+  // webApi.bind(window, orientationEvent, function(ev) {
+  //   window.orientation == 0 ? location.reload() : settins.across();
+  // });
 
   if (browerType.match(/mobile/i) != 'mobile') window.location.href = 'http://www.caicui.com';
 
-  if (window.orientation == 0) {
+  // if (window.orientation == 0) {
     redraw();
     pageInit();
     styleInit();
     bindEvent();
-  } else {
-    settins.across();
-  }
+  // } else {
+  //   settins.across();
+  // }
 
 
 })(window, undefined);
