@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+/**
+ * @update:    2016.8.10;
+ */
+
+@import "comm";
+
+/**
+ * reset
+ */
+div,section,a,ul,li,div{
+  box-sizing: border-box;
+}
+
+/**
+ * Article One
+ */
+.article-one{
+
+  section{
+    background-color: #fff;
+    padding: .2rem .2rem 0;
+    h1{
+      @include fontColor(.28rem,#4598DC);
+      padding-bottom: .1rem;
+    }
+    p{
+      @include fontColor(.24rem,#444)
+      line-height: .35rem;
+    }
+    &:nth-of-type(1){
+      padding-top: .3rem;
+    }
+    &:last-of-type{
+      padding-bottom: .2rem;
+    }
+
+  }
+
+}
+

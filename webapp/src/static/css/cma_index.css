@@ -114,8 +114,11 @@ section, div, a, span, i {
         -moz-transform: translate3d(1.15rem, 0, 0) rotate(-90deg);
         transform: translate3d(1.15rem, 0, 0) rotate(-90deg); }
     .acca-policy > a h1 {
-      font-size: .24rem;
+      font-size: 0.24rem;
       color: #333; }
+    .acca-policy > a h1.accountant-title {
+      border-left: 3px solid #4598DC;
+      text-indent: .12rem; }
   .acca-policy ul {
     width: 100%;
     height: 0rem;
@@ -313,7 +316,7 @@ section, div, a, span, i {
     .acca-course > ul > li:nth-of-type(2) a {
       background-color: #bc93b3; }
   .acca-course .content-list {
-    float: left;
+    display: inline-block;
     width: 100%;
     height: auto;
     border-top: 1px solid #e9e9e9;

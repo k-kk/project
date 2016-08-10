@@ -1,0 +1,28 @@
+/**
+ * @update:    2016.8.10;
+ */
+/**
+ * reset
+ */
+div, section, a, ul, li, div {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/**
+ * Article One
+ */
+.article-one section {
+  background-color: #fff;
+  padding: .2rem .2rem 0; }
+  .article-one section h1 {
+    font-size: 0.28rem;
+    color: #4598DC;
+    padding-bottom: .1rem; }
+  .article-one section p {
+    font-size: 0.24rem;
+    color: #444;
+    line-height: .35rem; }
+  .article-one section:nth-of-type(1) {
+    padding-top: .3rem; }
+  .article-one section:last-of-type {
+    padding-bottom: .2rem; }

@@ -95,8 +95,13 @@ section,div,a,span,i{
       }
     }
     h1{
-      font-size: .24rem; color: #333
+      @include fontColor(.24rem,#333)
     }
+    h1.accountant-title{
+      border-left: 3px solid #4598DC;
+      text-indent: .12rem;
+    }
+
   }
   ul{
     width: 100%; height: 0rem;
@@ -286,7 +291,7 @@ section,div,a,span,i{
 
   .content-list{
 
-    float: left;
+    display: inline-block;
     @include widthHeight(100%,auto);
     @include borderTop(#e9e9e9,1px);
     @include borderBottom(#e9e9e9,1px);

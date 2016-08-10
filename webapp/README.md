@@ -47,6 +47,8 @@
            ├── branch_list.html                                # 分部列表页
            ├── single_details.html                             # 单科详情页
            ├── u_details.html                                  # U+详情页
+           ├── u_agreement.html                                # U+协议
+           ├── accountant.html                                 # 会计从业
            ├── consult_list.html                               # 咨询列表页
            ├── consult_details.html                            # 咨询详情页
      ├── index.html                                            # 网站首页
