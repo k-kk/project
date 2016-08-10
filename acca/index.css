@@ -1,0 +1,251 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+}
+ul,li {
+	list-style: none;
+}
+.part {
+	overflow: hidden;
+	min-width: 768px;
+}
+.part img {
+	max-width: 100%;
+}
+.part1 {
+	overflow: hidden;
+	clear: both;
+}
+.part1>img {
+	float: left;
+}
+.part2 {
+	background-color: #2c1950;
+}
+.part3 {
+	background-color: #303a77;
+}
+.part4 {
+	background-color: #a0a0a0;
+}
+.part5 {
+	background-color: #2c1950;
+}
+.part6 {
+	background-color: #303a77;
+}
+.part>div {
+	margin: 0 auto;
+	padding: 50px 90px 50px 30px;
+	width: 100%;
+	max-width: 1200px;
+	overflow: hidden;
+}
+.lf {
+	width: 16.6%;
+	float: left;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.project .lf {
+	max-width: 165px;
+	height: 115px;
+	background-image: url('images/part2-lf.png');
+}
+.student .lf {
+	max-width: 172px;
+	height: 134px;
+	background-image: url('images/part3-lf.png');
+}
+.teacher .lf {
+	max-width: 180px;
+	height: 124px;
+	background-image: url('images/part4-lf.png');
+}
+.classes .lf {
+	max-width: 172px;
+	height: 133px;
+	background-image: url('images/part5-lf.png');
+}
+.classes .rt>p {
+	max-width: 875px;
+	line-height: 30px;
+}
+.classes .rt>ul {
+	margin-top: 35px;
+}
+.classes .rt>ul>.left,.classes .rt>ul>.right {
+	float: left;
+}
+.classes .rt>ul>.left {
+	padding: 20px 15px;
+	border: 1px solid #665a7d;
+}
+.strength .lf {
+	width: 50%;
+	max-width: 523px;
+	height: 449px;
+	background-image: url('images/part6-lf.png');
+}
+.rt {
+	float: left;
+	max-width: 900px;
+	color: #fff;
+	font-size: 14px;
+}
+.rt>h3 {
+	margin: 20px 0;
+	font-size: 20px;
+	font-weight: 600;
+}
+.rt>p {
+	font-size: 14px;
+	font-weight: 400;
+}
+.project .rt {
+	margin-top: 20px;
+	width: calc(100% - 175px);
+	line-height: 30px;
+
+}
+.project a {
+	margin-left: 30px;
+	color: #9174c7;
+	text-decoration: none;
+}
+.title2 {
+	padding-top: 30px;
+	border-top: 1px solid #59428c;
+}
+.ACCA-ad {
+	overflow: hidden;
+}
+.ACCA-lf {
+	padding-right: 7%;
+	float: left;
+	width: 40%;
+	border-right: 1px solid #635382;
+}
+.ACCA-rt {
+	float: right;
+	width: 45%;
+}
+.employee {
+	overflow: hidden;
+	clear: both;
+}
+.project .employee a {
+	display: block;
+	text-align: right;
+}
+.project .advantage a {
+	display: block;
+	text-align: right;
+}
+.student .rt {
+	width: calc(100% - 172px);
+}
+.student a {
+	color: #6577e8;
+	text-decoration: none;
+}
+small {
+	margin-top: 15px;
+	display: block;
+	font-size: 14px;
+}
+.student-lf ,.student-rt {
+	line-height: 30px;
+	float: left;
+	width: 46%;
+}
+.student-lf {
+	padding-right: 5%;
+}
+.student-lf>div,.student-rt>div {
+	min-height: 250px;
+}
+.student-rt>h3,.student-rt>small,.student-rt>div {
+	padding-left: 10%;
+}
+.student-rt div {
+	border-left: 1px solid #c2b7d8;
+}
+.teacher {
+	position: relative;
+}
+.teacher .lf {
+	position: absolute;
+}
+.teacher .rt {
+	margin-top: 50px;
+	margin-left: 12%;
+}
+.teacher .rt a {
+	margin-bottom: 20px;
+	text-align: right;
+	display: block;
+	color: #535252;
+}
+.classes .rt {
+	width: calc(100% - 175px);
+}
+.classes ul>li.left {
+	width: 40%;
+}
+.classes ul>li.right {
+	margin-left: 2%;
+	padding: 3% 5%;
+	width: 42%;
+	background-color: #412871;
+	line-height: 25px;
+	font-size: 16px;
+}
+.classes span {
+	padding: 6px 3px;
+	display: inline-block;
+	color: #a385ef;
+	font-size: 16px;
+}
+.classes span.active {
+	color: #cbb9f6;
+}
+.classes .right>div {
+	min-height: 150px;
+	display: none;
+	-webkit-transition: display 2s ease-in;
+}
+.classes .right>div.active {
+	display: block;
+}
+.strength .rt {
+	margin-top: 115px;
+	margin-left: 9%;
+	font-size: 18px;
+	width: 40%;
+}
+.strength .rt li {
+	line-height: 35px;
+}
+.strength .rt span {
+	color: #ffff01;
+}
+#shSchool>li,#bjSchool>li,#hnSchool>li,#tjSchool>li {
+	display: none;
+}
+#shSchool>li.active,#bjSchool>li.active,#hnSchool>li.active,#tjSchool>li.active {
+	display: block;
+}
+#shSpan,#bjSpan,#hnSpan,#tjSpan {
+	height: 14px;
+}
+#shSpan>span,#bjSpan>span,#hnSpan>span,#tjSpan>span {
+	display: inline-block;
+	height: 14px;
+}
+@media screen and (max-width: 1055px) {
+	.classes ul>li.right {
+		font-size: 14px;
+	}
+}
